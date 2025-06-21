@@ -24,8 +24,8 @@ const breakingNewsTickerSchema = new Schema(
       enum: ["low", "medium", "high"],
       default: "medium",
     },
-    startDateAndTime: { type: Date, required: true },
-    endDateAndTime: { type: Date, required: true },
+    startDateAndTime: { type: String, required: true },
+    endDateAndTime: { type: String, required: true },
     link: { type: String },
     setActiveImmediately: { type: Boolean, default: false },
 
