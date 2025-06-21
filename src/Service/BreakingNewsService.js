@@ -15,6 +15,7 @@ export const fetchBreakingNews = async (query) => {
     status,
     startDate,
     endDate,
+    currentDate,
   } = query;
 
   const filter = {};
@@ -35,28 +36,32 @@ export const fetchBreakingNews = async (query) => {
   }
 
   // 📆 Filter by date range
-  if (endDate) {
-    filter.startDateAndTime = {
-      // $gte: new Date(startDate),
-      $lte: new Date(endDate),
-    };
-  }
+  filter.startDateAndTime = {
+    $lte: currentDate,
+  };
+  filter.endDateAndTime = {
+    $gte: currentDate,
+  };
 
   const skip = (parseInt(page) - 1) * parseInt(limit);
 
-  const [data, total] = await Promise.all([
+  const [data, total, tickerSetting] = await Promise.all([
     BreakingNewsTickerModel.find(filter)
       .sort({ createdAt: -1 }) // latest first
       .skip(skip)
       .limit(parseInt(limit)),
     BreakingNewsTickerModel.countDocuments(filter),
+    TickerSettingModel.findOne({}),
   ]);
 
+  // console.log(data);
+
   return {
-    data,
+    data: data,
     currentPage: parseInt(page),
     totalPages: Math.ceil(total / parseInt(limit)),
     totalItems: total,
+    tickerSetting: tickerSetting,
   };
 };
 

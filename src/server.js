@@ -12,6 +12,7 @@ import BreakingNewsRoute from "./Routes/BreakingNewsRoutes.js";
 import EPaper from "./Routes/EPaperRoute.js";
 import WebsiteSetting from "./Routes/websiteSettingRoutes.js";
 import MediaRoute from "./Routes/MediaRoute.js";
+import AdsRoute from "./Routes/AdsRoute.js";
 
 const app = express();
 const PORT = process.env.PORT || 9999;
@@ -58,6 +59,7 @@ app.use("/breaking-new", BreakingNewsRoute);
 app.use("/e-paper", EPaper);
 app.use("/web-settings", WebsiteSetting);
 app.use("/media", MediaRoute);
+app.use("/ads", AdsRoute);
 
 startHTTPServer();
 // logger.warn(`⚠️ Order ${orderId} already accepted or cancelled`);
