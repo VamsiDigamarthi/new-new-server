@@ -1,0 +1,22 @@
+PUT http://localhost:9999/web-settings
+Content-Type: application/json
+
+{
+  "siteName": "My Church",
+  "siteTagline": "Faith, Hope, Love",
+  "socialLinks": {
+    "facebook": "https://facebook.com/mychurch",
+    "twitter": "https://twitter.com/mychurch",
+    "instagram": "https://instagram.com/mychurch",
+    "youtube": "https://youtube.com/mychurch"
+  },
+  "emailSettings": {
+    "smtpHost": "smtp.gmail.com",
+    "smtpPort": 587,
+    "smtpUser": "admin@mychurch.com",
+    "smtpPass": "yourAppPassword",
+    "fromEmail": "noreply@mychurch.com",
+    "senderName": "Church Mailer",
+    "encryptionType": "tls"
+  }
+}
