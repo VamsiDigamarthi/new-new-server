@@ -1,6 +1,13 @@
 import { AdsModel } from "../Modals/AdsModal.js";
 import { createAd } from "../Service/AdsService.js";
 
+const adSlotDimensions = {
+  "Homepage Top Banner": { width: "970px", height: "250px" },
+  "Article Sidebar": { width: "300px", height: "600px" },
+  Middle: { width: "728px", height: "90px" },
+  "Category Footer": { width: "970px", height: "90px" },
+};
+
 export const createAdController = async (req, res) => {
   try {
     const { file } = req;
@@ -8,6 +15,14 @@ export const createAdController = async (req, res) => {
 
     if (file) {
       adData.file = req.file?.path;
+    }
+
+    const selectedSlot = adData.adSlot;
+    const dimensions = adSlotDimensions[selectedSlot];
+
+    if (dimensions) {
+      adData.width = dimensions.width;
+      adData.height = dimensions.height;
     }
 
     const newAd = await createAd(adData);
@@ -59,7 +74,7 @@ export const getFilteredAds = async (req, res) => {
       query.heading = { $regex: heading, $options: "i" };
     }
 
-    console.log("query", query);
+    // console.log("query", query);
 
     const skip = (parseInt(page) - 1) * parseInt(limit);
     const totalCount = await AdsModel.countDocuments(query);
@@ -129,7 +144,6 @@ export const filterActiveAdsController = async (req, res) => {
 
     const skip = (Number(page) - 1) * 1; // since limit is 1 per page
 
-    // Try to find in specific tagetPage
     let ads = await AdsModel.find({
       ...baseQuery,
       tagetPage,
@@ -138,7 +152,6 @@ export const filterActiveAdsController = async (req, res) => {
       .skip(skip)
       .limit(1);
 
-    // If not found, try fallback to "All Pages"
     if (!ads.length) {
       ads = await AdsModel.find({
         ...baseQuery,
@@ -148,8 +161,6 @@ export const filterActiveAdsController = async (req, res) => {
         .skip(skip)
         .limit(1);
     }
-
-    // console.log("-------------", ads);
 
     if (!ads.length) {
       return res.status(200).json({ message: "No Ad" });

@@ -94,7 +94,7 @@ export const empRegisterUser = async (req, res) => {
       region,
       categories,
     } = req.body;
-    console.log(req.body);
+    // console.log(req.body);
 
     const hashedPassword = await bcrypt.hash(password, 10);
     // Check if user exists

@@ -18,7 +18,7 @@ export const addNewMedia = async (req, res) => {
       extraMedia: extraFiles.map((e) => ({ url: e })),
     });
 
-    console.log(newMedia);
+    // console.log(newMedia);
 
     return res.status(200).send(newMedia);
   } catch (error) {
@@ -48,7 +48,7 @@ export const getGalleryData = async (req, res) => {
 
     const data = await GalleryData;
 
-    console.log(data);
+    // console.log(data);
 
     return res.status(200).json(data);
   } catch (error) {
