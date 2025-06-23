@@ -69,3 +69,5 @@
 {"error":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Article\"","level":"error","message":"❌ Failed to fetch articles","service":"auth-services","timestamp":"2025-06-21T09:03:37.451Z"}
 {"error":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Article\"","level":"error","message":"❌ Failed to fetch articles","service":"auth-services","timestamp":"2025-06-21T09:05:10.472Z"}
 {"error":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Article\"","level":"error","message":"❌ Failed to fetch articles","service":"auth-services","timestamp":"2025-06-21T09:05:10.492Z"}
+{"error":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Article\"","level":"error","message":"❌ Failed to fetch articles","service":"auth-services","timestamp":"2025-06-23T06:09:40.244Z"}
+{"error":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Article\"","level":"error","message":"❌ Failed to fetch articles","service":"auth-services","timestamp":"2025-06-23T06:09:40.481Z"}

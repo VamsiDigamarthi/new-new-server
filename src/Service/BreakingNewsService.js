@@ -20,6 +20,8 @@ export const fetchBreakingNews = async (query) => {
 
   const filter = {};
 
+  console.log(currentDate, "--------================0-------------");
+
   // 🔍 Search by text
   if (search) {
     filter.headline = { $regex: search, $options: "i" };

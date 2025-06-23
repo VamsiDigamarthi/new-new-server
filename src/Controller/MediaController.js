@@ -32,11 +32,14 @@ export const addNewMedia = async (req, res) => {
 export const getGalleryData = async (req, res) => {
   try {
     const query = {};
-    const { newsType, pageSize, pageNumber } = req.query;
-
-    // newsType = imagegallery or videogallery
+    const { newsType, pageSize, pageNumber, category } = req.query;
 
     if (newsType) query.newsType = newsType;
+
+    if (category && category !== "null" && category !== "") {
+      query.category = category;
+    }
+
     let GalleryData = ArticleModel.find(query).sort({ createdAt: -1 });
 
     if (pageNumber && pageSize) {
@@ -58,3 +61,27 @@ export const getGalleryData = async (req, res) => {
     return sendResponse(res, 500, "Get Gallery Data Failed", error);
   }
 };
+
+// export const getGalleryPageData = async (req, res) => {
+//   try {
+//     const { type } = req.params;
+
+//     if (!type) {
+//       return res.status(400).send("Please specify type");
+//     }
+
+//     const galleryData = await ArticleModel.find({
+//       newsType: type,
+//     }).sort({ createdAt: -1 });
+
+//     if (!galleryData) {
+//       return res.status(404).send("No Data found");
+//     }
+//     return res.status(200).send(galleryData);
+//   } catch (error) {
+//     logger.error(`❌Get Gallery Page Data Failed : ${error}`, {
+//       stack: error.stack,
+//     });
+//     return sendResponse(res, 500, "Get Gallery Data Failed", error);
+//   }
+// };
