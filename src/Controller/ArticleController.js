@@ -60,7 +60,7 @@ export const getArticlesSubTypeController = async (req, res) => {
   logger.info("ARTICLE SUB TYPE API");
   try {
     const { subTypes } = await getArticleSubType(req.query);
-    console.log("result", subTypes);
+    // console.log("result", subTypes);
 
     return res.status(200).json(subTypes);
   } catch (error) {

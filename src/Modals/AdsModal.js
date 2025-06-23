@@ -48,6 +48,9 @@ const adsSchema = new mongoose.Schema(
     },
     startDateAndTime: { type: String, required: true },
     endDateAndTime: { type: String, required: true },
+    width: { type: String, default: "0px" },
+    height: { type: String, default: "0px" },
+    dimenstionActive: { type: Boolean, default: true },
   },
   {
     timestamps: true,
