@@ -52,7 +52,7 @@ export const loginController = async (req, res) => {
 
 export const getUsersController = async (req, res) => {
   const { page, limit, search, status } = req.query;
-  const query = {};
+  const query = { role: "Employee" };
   if (search) {
     query.$or = [
       { name: { $regex: search, $options: "i" } },
@@ -123,5 +123,35 @@ export const empRegisterUser = async (req, res) => {
     console.log("error", err);
 
     res.status(500).json({ message: "Server error", error: err.message });
+  }
+};
+
+export const getProfile = async (req, res) => {
+  const { userId } = req;
+  try {
+    const user = await UserModel.findById(userId);
+    if (!user) return res.status(404).json({ message: "user not found" });
+    return res.status(200).json(user);
+  } catch (error) {
+    console.log("error", err);
+    res.status(500).json({ message: "Server error", error: err.message });
+  }
+};
+
+// Update user
+export const updateUser = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const updated = await UserModel.findByIdAndUpdate(id, req.body, {
+      new: true,
+    });
+    if (!updated) {
+      return res.status(404).json({ status: false, message: "User not found" });
+    }
+    res
+      .status(200)
+      .json({ status: true, message: "User updated", data: updated });
+  } catch (error) {
+    res.status(400).json({ status: false, message: error.message });
   }
 };

@@ -45,52 +45,65 @@ export const getFilteredAds = async (req, res) => {
       limit = 10,
     } = req.query;
 
-    const query = {};
+    const baseQuery = {};
 
     if (startDateAndTime) {
-      query.startDateAndTime = { $gte: startDateAndTime };
+      baseQuery.startDateAndTime = { $gte: startDateAndTime };
     }
 
     if (endDateAndTime) {
-      query.endDateAndTime = {
-        ...query.endDateAndTime,
+      baseQuery.endDateAndTime = {
+        ...baseQuery.endDateAndTime,
         $lte: endDateAndTime,
       };
     }
 
     if (adSlot) {
-      query.adSlot = adSlot;
+      baseQuery.adSlot = adSlot;
     }
 
     if (tagetPage) {
-      query.tagetPage = tagetPage;
-    }
-
-    if (status) {
-      query.status = status;
+      baseQuery.tagetPage = tagetPage;
     }
 
     if (heading) {
-      query.heading = { $regex: heading, $options: "i" };
+      baseQuery.heading = { $regex: heading, $options: "i" };
     }
 
-    // console.log("query", query);
-
     const skip = (parseInt(page) - 1) * parseInt(limit);
-    const totalCount = await AdsModel.countDocuments(query);
 
-    const ads = await AdsModel.find(query)
-      .sort({ createdAt: -1 })
-      .skip(skip)
-      .limit(parseInt(limit));
+    // 🔹 Include `status` only for paginated data
+    const paginatedQuery = { ...baseQuery };
+    if (status) {
+      paginatedQuery.status = status;
+    }
+
+    const [ads, totalCount, activeCount, inActiveCount, scheduledCount] =
+      await Promise.all([
+        AdsModel.find(paginatedQuery)
+          .sort({ createdAt: -1 })
+          .skip(skip)
+          .limit(parseInt(limit)),
+
+        AdsModel.countDocuments(paginatedQuery),
+
+        AdsModel.countDocuments({ ...baseQuery, status: "Active" }),
+        AdsModel.countDocuments({ ...baseQuery, status: "In-Active" }),
+        AdsModel.countDocuments({ ...baseQuery, status: "Scheduled" }),
+      ]);
 
     const totalPages = Math.ceil(totalCount / parseInt(limit));
 
     return res.status(200).json({
       data: ads,
-      totalCount,
       currentPage: parseInt(page),
       totalPages,
+      statusCounts: {
+        active: activeCount,
+        inActive: inActiveCount,
+        scheduled: scheduledCount,
+        totalCount,
+      },
     });
   } catch (err) {
     res.status(500).json({
@@ -173,5 +186,63 @@ export const filterActiveAdsController = async (req, res) => {
       status: false,
       message: "Failed to fetch filtered ads",
     });
+  }
+};
+
+export const updateAdsBySlot = async (req, res) => {
+  try {
+    const { adSlot, width, height, status, dimenstionActive } = req.body;
+
+    if (!adSlot) {
+      return res.status(400).json({ message: "adSlot is required" });
+    }
+
+    const updateData = {};
+    if (width) updateData.width = width;
+    if (height) updateData.height = height;
+    if (status) updateData.status = status;
+    if (dimenstionActive !== undefined)
+      updateData.dimenstionActive = dimenstionActive;
+
+    const result = await AdsModel.updateMany({ adSlot }, { $set: updateData });
+
+    res.status(200).json({
+      message: "Ads updated successfully",
+      modifiedCount: result.modifiedCount,
+    });
+  } catch (err) {
+    console.error("Update error:", err);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
+export const getAdSlotConfigs = async (req, res) => {
+  try {
+    const configs = await AdsModel.aggregate([
+      {
+        $group: {
+          _id: "$adSlot",
+          width: { $first: "$width" },
+          height: { $first: "$height" },
+          dimenstionActive: { $first: "$dimenstionActive" },
+        },
+      },
+    ]);
+
+    const desiredOrder = [
+      "Homepage Top Banner",
+      "Article Sidebar",
+      "Middle",
+      "Category Footer",
+    ];
+
+    const sortedConfigs = desiredOrder
+      .map((slot) => configs.find((c) => c._id === slot))
+      .filter(Boolean); // remove undefined if any slot is missing
+
+    res.status(200).json(sortedConfigs);
+  } catch (error) {
+    console.error("Error fetching ad slot configs:", error);
+    res.status(500).json({ message: "Server error" });
   }
 };
