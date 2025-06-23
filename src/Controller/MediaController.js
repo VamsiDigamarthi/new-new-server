@@ -36,6 +36,8 @@ export const getGalleryData = async (req, res) => {
 
     if (newsType) query.newsType = newsType;
 
+    console.log(newsType, "-----------TYOE");
+
     if (category && category !== "null" && category !== "") {
       query.category = category;
     }
