@@ -83,7 +83,9 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
 
     const query = {};
 
-    if (category) query.category = category;
+    if (category && category !== "null" && category !== "") {
+      query.category = category;
+    }
     if (subCategory) query.subCategory = subCategory;
     if (publishedDate) query.publishedDate = publishedDate;
     if (page) query.page = page;

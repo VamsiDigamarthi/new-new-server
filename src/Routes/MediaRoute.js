@@ -1,5 +1,9 @@
 import { Router } from "express";
-import { addNewMedia, getGalleryData } from "../Controller/MediaController.js";
+import {
+  addNewMedia,
+  getGalleryData,
+  // getGalleryPageData,
+} from "../Controller/MediaController.js";
 import { mediaSchema } from "../Validations/mediavalidation.js";
 import { validate } from "../Utils/validaters.js";
 // import { handleMulterUpload } from "../Middlewares/handleMulterUpload.js";
@@ -14,10 +18,11 @@ router.post(
     { name: "image", maxCount: 1 },
     { name: "extraMedia", maxCount: 10 },
   ]),
-  //   handleMulterUpload(upload.array("extraMedia", 10)),
   addNewMedia
 );
 
 router.get("/", getGalleryData);
+
+// router.get("/gallery/:type", getGalleryPageData);
 
 export default router;
