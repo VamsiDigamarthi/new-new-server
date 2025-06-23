@@ -45,8 +45,6 @@ export const fetchBreakingNews = async (query) => {
     $gte: currentDate,
   };
 
-  console.log(new Date(currentDate), currentDate, "--------------");
-
   const skip = (parseInt(page) - 1) * parseInt(limit);
 
   const [data, total, tickerSetting] = await Promise.all([
