@@ -1,4 +1,8 @@
-import { checkExistingUser, signupService } from "../Service/AuthService.js";
+import {
+  checkExistingUser,
+  signupService,
+  updateLoginTime,
+} from "../Service/AuthService.js";
 import { sendResponse } from "../Utils/sendResponse.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
@@ -37,6 +41,12 @@ export const loginController = async (req, res) => {
       process.env.JWT_SECRET
     );
 
+    const loginTime = new Date().toLocaleString("en-IN", {
+      timeZone: "Asia/Kolkata",
+    });
+
+    await updateLoginTime(existingUser._id, loginTime);
+
     return sendResponse(res, 200, "", null, {
       token,
       role: existingUser?.role,
@@ -67,7 +77,10 @@ export const getUsersController = async (req, res) => {
   try {
     const total = await UserModel.countDocuments(query);
 
-    const users = await UserModel.find(query).skip(skip).limit(limit);
+    const users = await UserModel.find(query)
+      .sort({ lastLoginAt: -1 })
+      .skip(skip)
+      .limit(limit);
 
     return res.status(200).json({
       users,
