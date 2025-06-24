@@ -43,6 +43,10 @@ const userSchema = new mongoose.Schema(
     },
     categories: [{ type: String }],
     mobileNumber: { type: String, default: null },
+    lastLoginAt: {
+      type: String,
+      default: null,
+    },
   },
   { timestamps: true }
 );

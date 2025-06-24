@@ -1,0 +1,101 @@
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-06-23T12:38:57.919Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-06-23T12:38:58.426Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-06-23T12:39:02.526Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-06-23T12:39:03.016Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-06-24T08:23:05.134Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-06-24T08:23:05.768Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-06-24T08:23:59.419Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:23:59.420Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-06-24T08:23:59.439Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:23:59.440Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-06-24T08:23:59.500Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:23:59.501Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-06-24T08:23:59.511Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:23:59.512Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-06-24T08:29:40.624Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-06-24T08:29:41.229Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-06-24T08:30:03.713Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-06-24T08:30:04.197Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-06-24T08:31:16.922Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-06-24T08:31:17.533Z"}
+{"level":"info","message":"Received POST request to /auth/login","service":"auth-services","timestamp":"2025-06-24T08:32:27.887Z"}
+{"level":"info","message":"Request body, [object Object]","service":"auth-services","timestamp":"2025-06-24T08:32:27.889Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=politics&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-06-24T08:32:28.318Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:32:28.318Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-06-24T08:32:28.319Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-06-24T08:32:28.332Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:32:28.333Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=politics&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-06-24T08:32:28.384Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:32:28.389Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-06-24T08:32:28.393Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-06-24T08:32:28.410Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:32:28.412Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-06-24T08:32:56.426Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-06-24T08:32:57.101Z"}
+{"level":"info","message":"Received POST request to /auth/login","service":"auth-services","timestamp":"2025-06-24T08:33:13.228Z"}
+{"level":"info","message":"Request body, [object Object]","service":"auth-services","timestamp":"2025-06-24T08:33:13.230Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=politics&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-06-24T08:33:13.494Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:33:13.496Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-06-24T08:33:13.497Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-06-24T08:33:13.508Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:33:13.509Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=politics&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-06-24T08:33:13.564Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:33:13.565Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-06-24T08:33:13.565Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-06-24T08:33:13.569Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:33:13.569Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-06-24T08:34:34.203Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-06-24T08:34:36.111Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-06-24T08:34:36.685Z"}
+{"level":"info","message":"Received POST request to /auth/login","service":"auth-services","timestamp":"2025-06-24T08:35:01.832Z"}
+{"level":"info","message":"Request body, [object Object]","service":"auth-services","timestamp":"2025-06-24T08:35:01.833Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=politics&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-06-24T08:35:02.168Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:35:02.169Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-06-24T08:35:02.170Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-06-24T08:35:02.182Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:35:02.182Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=politics&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-06-24T08:35:02.234Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:35:02.235Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-06-24T08:35:02.235Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-06-24T08:35:02.238Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:35:02.238Z"}
+{"level":"info","message":"Received POST request to /auth/login","service":"auth-services","timestamp":"2025-06-24T08:35:51.219Z"}
+{"level":"info","message":"Request body, [object Object]","service":"auth-services","timestamp":"2025-06-24T08:35:51.220Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-06-24T08:35:51.525Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:35:51.525Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-06-24T08:35:51.529Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:35:51.530Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-06-24T08:35:51.570Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:35:51.571Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-06-24T08:35:51.588Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:35:51.588Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-06-24T08:35:57.566Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:35:57.567Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-06-24T08:35:57.632Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:35:57.634Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=dine&status=","service":"auth-services","timestamp":"2025-06-24T08:36:12.919Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:36:12.921Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-06-24T08:36:14.635Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:36:14.637Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-06-24T08:38:47.792Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-06-24T08:38:48.464Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-06-24T08:39:10.553Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:39:10.555Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-06-24T08:39:10.595Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:39:10.596Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-06-24T08:39:10.659Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:39:10.660Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-06-24T08:39:10.666Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:39:10.668Z"}
+{"level":"info","message":"Received GET request to /undefined","service":"auth-services","timestamp":"2025-06-24T08:47:28.726Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T08:47:28.730Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-06-24T09:16:36.068Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T09:16:36.071Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-06-24T09:16:36.094Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T09:16:36.095Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-06-24T09:16:36.140Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T09:16:36.141Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-06-24T09:16:36.147Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T09:16:36.147Z"}
+{"level":"info","message":"Received GET request to /undefined","service":"auth-services","timestamp":"2025-06-24T09:16:36.244Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-06-24T09:16:36.244Z"}

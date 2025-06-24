@@ -12,3 +12,9 @@ export const signupService = async ({ name, email, password }) => {
   const newUser = new UserModel({ name, email, password: hashedPassword });
   await newUser.save();
 };
+
+export const updateLoginTime = async (userId, loginTime) => {
+  await UserModel.findByIdAndUpdate(userId, {
+    lastLoginAt: loginTime,
+  });
+};
