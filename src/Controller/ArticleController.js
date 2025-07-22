@@ -159,3 +159,14 @@ export const getTopNewsByCategory = async (req, res) => {
     res.status(500).json({ message: "Server error", error });
   }
 };
+
+export const deletArticle = async (req, res) => {
+  const { id } = req.params;
+  try {
+    await ArticleModel.findByIdAndDelete(id);
+    return res.status(204).json({ message: "Deleted...!" });
+  } catch (error) {
+    console.error("Aggregation error:", error);
+    res.status(500).json({ message: "Server error", error });
+  }
+};

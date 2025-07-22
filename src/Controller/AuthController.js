@@ -168,3 +168,17 @@ export const updateUser = async (req, res) => {
     res.status(400).json({ status: false, message: error.message });
   }
 };
+
+export const forgotPassword = async (req, res) => {
+  const { userId } = req;
+  const { password } = req.body;
+  try {
+    const hashedPassword = await bcrypt.hash(password, 10);
+    await UserModel.findByIdAndUpdate(userId, {
+      $set: { password: hashedPassword },
+    });
+    return res.status(200).json({ message: "Password changes successfully" });
+  } catch (error) {
+    res.status(400).json({ status: false, message: error.message });
+  }
+};
