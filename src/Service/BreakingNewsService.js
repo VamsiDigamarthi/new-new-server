@@ -20,7 +20,7 @@ export const fetchBreakingNews = async (query) => {
 
   const filter = {};
 
-  console.log(currentDate, "--------================0-------------");
+  // console.log(currentDate, "--------================0-------------");
 
   // 🔍 Search by text
   if (search) {
@@ -37,13 +37,26 @@ export const fetchBreakingNews = async (query) => {
     filter.status = status;
   }
 
-  // 📆 Filter by date range
-  filter.startDateAndTime = {
-    $lte: currentDate,
-  };
-  filter.endDateAndTime = {
-    $gte: currentDate,
-  };
+  if (startDate && endDate) {
+    console.log(startDate, endDate, "============");
+
+    // 📆 Filter by date range
+    filter.startDateAndTime = {
+      $gte: startDate,
+    };
+    filter.endDateAndTime = {
+      $lte: endDate,
+    };
+  }
+
+  if (currentDate) {
+    filter.startDateAndTime = {
+      $lte: currentDate,
+    };
+    filter.endDateAndTime = {
+      $gte: currentDate,
+    };
+  }
 
   const skip = (parseInt(page) - 1) * parseInt(limit);
 
