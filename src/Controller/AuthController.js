@@ -1,4 +1,8 @@
-import { checkExistingUser, signupService } from "../Service/AuthService.js";
+import {
+  checkExistingUser,
+  signupService,
+  updateLoginTime,
+} from "../Service/AuthService.js";
 import { sendResponse } from "../Utils/sendResponse.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
@@ -37,6 +41,12 @@ export const loginController = async (req, res) => {
       process.env.JWT_SECRET
     );
 
+    const loginTime = new Date().toLocaleString("en-IN", {
+      timeZone: "Asia/Kolkata",
+    });
+
+    await updateLoginTime(existingUser._id, loginTime);
+
     return sendResponse(res, 200, "", null, {
       token,
       role: existingUser?.role,
@@ -67,7 +77,10 @@ export const getUsersController = async (req, res) => {
   try {
     const total = await UserModel.countDocuments(query);
 
-    const users = await UserModel.find(query).skip(skip).limit(limit);
+    const users = await UserModel.find(query)
+      .sort({ lastLoginAt: -1 })
+      .skip(skip)
+      .limit(limit);
 
     return res.status(200).json({
       users,
@@ -151,6 +164,20 @@ export const updateUser = async (req, res) => {
     res
       .status(200)
       .json({ status: true, message: "User updated", data: updated });
+  } catch (error) {
+    res.status(400).json({ status: false, message: error.message });
+  }
+};
+
+export const forgotPassword = async (req, res) => {
+  const { userId } = req;
+  const { password } = req.body;
+  try {
+    const hashedPassword = await bcrypt.hash(password, 10);
+    await UserModel.findByIdAndUpdate(userId, {
+      $set: { password: hashedPassword },
+    });
+    return res.status(200).json({ message: "Password changes successfully" });
   } catch (error) {
     res.status(400).json({ status: false, message: error.message });
   }

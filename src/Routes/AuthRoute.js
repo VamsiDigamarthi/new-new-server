@@ -1,6 +1,7 @@
 import express from "express";
 import {
   empRegisterUser,
+  forgotPassword,
   getProfile,
   getUsersController,
   loginController,
@@ -19,5 +20,6 @@ router.get("/users", getUsersController);
 router.patch("/users/:id", updateUser);
 router.post("/emp-register", empRegisterUser);
 router.get("/profile", authenticateToken, getProfile);
+router.patch("/forgot-password/:userId", authenticateToken, forgotPassword);
 
 export default router;

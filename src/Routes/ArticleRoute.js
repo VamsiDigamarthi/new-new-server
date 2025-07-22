@@ -3,6 +3,7 @@ import { validate } from "../Utils/validaters.js";
 import { articleSchema } from "../Validations/articleValidation.js";
 import {
   createArticleController,
+  deletArticle,
   getArticlesController,
   getArticlesControllerToNewsWeb,
   getArticlesSubTypeController,
@@ -26,5 +27,6 @@ router.get("/:page/:id", getSingleArticlesController);
 router.get("/new-web", getArticlesControllerToNewsWeb);
 router.get("/sub-type", getArticlesSubTypeController);
 router.get("/all-type", getTopNewsByCategory);
+router.delete("/:id", deletArticle);
 
 export default router;
