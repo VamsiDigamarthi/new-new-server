@@ -106,6 +106,7 @@ export const empRegisterUser = async (req, res) => {
       gender,
       region,
       categories,
+      role,
     } = req.body;
     // console.log(req.body);
 
@@ -118,15 +119,8 @@ export const empRegisterUser = async (req, res) => {
 
     // Create user
     const user = new UserModel({
-      name,
-      email,
-      password: hashedPassword, // 🔐 You should hash this using bcrypt in production
-      mobileNumber,
-      dateOfBirth,
-      gender,
-      region,
-      categories,
-      role: "Employee",
+      ...req.body,
+      password: hashedPassword,
     });
 
     await user.save();
