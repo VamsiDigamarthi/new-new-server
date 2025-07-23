@@ -83,9 +83,10 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
       pageNumber,
       pageSize,
       subType,
+      managerNews = false,
     } = req.query;
 
-    const query = {};
+    const query = { managerNews };
 
     if (category && category !== "null" && category !== "") {
       query.category = category;
@@ -172,5 +173,77 @@ export const deletArticle = async (req, res) => {
   } catch (error) {
     console.error("Aggregation error:", error);
     res.status(500).json({ message: "Server error", error });
+  }
+};
+
+export const getFutureArticles = async (req, res) => {
+  try {
+    const {
+      page = 1,
+      limit = 10,
+      category,
+      search,
+      startDate, // format: YYYY-MM-DD
+      endDate, // format: YYYY-MM-DD
+    } = req.query;
+
+    let filter = {};
+    console.log("startDate", startDate);
+
+    if (startDate && endDate) {
+      filter.publishedDate = {
+        $gte: new Date(startDate),
+        $lte: new Date(endDate),
+      };
+    } else {
+      const now = new Date();
+      const todayDate = now.toISOString().split("T")[0];
+      const currentTime = now.toTimeString().split(" ")[0];
+
+      filter.$or = [
+        { publishedDate: { $gt: todayDate } },
+        {
+          publishedDate: todayDate,
+          publishedTime: { $gt: currentTime },
+        },
+      ];
+    }
+
+    // 🔍 Add search on headline or subHeadline
+    if (search) {
+      const searchRegex = new RegExp(search, "i");
+      filter.$and = [
+        {
+          $or: [{ headline: searchRegex }, { subHeadline: searchRegex }],
+        },
+      ];
+    }
+
+    // 🏷️ Category filter
+    if (category) {
+      filter.category = category;
+    }
+    console.log("filter", filter);
+
+    const skip = (page - 1) * limit;
+    const articles = await ArticleModel.find(filter)
+      .sort({
+        publishedDate: 1,
+        publishedTime: 1,
+      })
+      .skip(skip)
+      .limit(Number(limit));
+
+    res.status(200).json({
+      page: Number(page),
+      pages: Math.ceil(articles?.length / limit),
+      data: articles,
+    });
+  } catch (error) {
+    console.error("Error fetching future articles:", error);
+    res.status(500).json({
+      success: false,
+      message: "Server Error",
+    });
   }
 };
