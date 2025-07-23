@@ -13,6 +13,7 @@ import EPaper from "./Routes/EPaperRoute.js";
 import WebsiteSetting from "./Routes/websiteSettingRoutes.js";
 import MediaRoute from "./Routes/MediaRoute.js";
 import AdsRoute from "./Routes/AdsRoute.js";
+import AnaliticsRoute from "./Routes/AnaliticsRoute.js";
 
 const app = express();
 const PORT = process.env.PORT || 9999;
@@ -60,7 +61,7 @@ app.use("/e-paper", EPaper);
 app.use("/web-settings", WebsiteSetting);
 app.use("/media", MediaRoute);
 app.use("/ads", AdsRoute);
-
+app.use("/analitics", AnaliticsRoute);
 startHTTPServer();
 
 app.get("/", async (req, res) => {

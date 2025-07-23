@@ -26,6 +26,7 @@ const userSchema = new mongoose.Schema(
     },
     role: {
       type: String,
+      enum: ["Admin", "Editor", "Chief Editor", "Reader", "Manager"],
       default: "",
     },
     status: {
@@ -40,6 +41,11 @@ const userSchema = new mongoose.Schema(
     region: {
       type: String,
       default: "",
+    },
+
+    pincode: {
+      type: String,
+      default: null,
     },
     categories: [{ type: String }],
     mobileNumber: { type: String, default: null },
