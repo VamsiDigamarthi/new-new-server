@@ -587,3 +587,995 @@
 {"level":"info","message":"Received GET request to /article?page=1&limit=10&category=family&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T09:05:24.050Z"}
 {"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T09:05:24.052Z"}
 {"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T09:05:24.054Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-22T11:45:03.640Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-22T11:45:04.562Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:45:28.392Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:28.393Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:45:28.406Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:28.408Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:45:28.441Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:28.442Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:45:28.444Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:28.445Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:45:28.460Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:28.461Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:45:28.513Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:28.513Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:45:30.627Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:30.629Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:45:30.639Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:30.640Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:45:30.650Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:30.652Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:45:30.661Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:30.663Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:45:30.675Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:30.676Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:45:30.751Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:30.752Z"}
+{"level":"info","message":"Received GET request to /media?newsType=imagegallery&pageNumber=1&pageSize=4&category=null","service":"auth-services","timestamp":"2025-07-22T11:45:33.347Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:33.349Z"}
+{"level":"info","message":"Received GET request to /uploads/1750849540416-468580767.png","service":"auth-services","timestamp":"2025-07-22T11:45:33.437Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:33.438Z"}
+{"level":"info","message":"Received GET request to /uploads/1750756370357-913842973.png","service":"auth-services","timestamp":"2025-07-22T11:45:33.440Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:33.442Z"}
+{"level":"info","message":"Received GET request to /uploads/1750756255286-837317951.png","service":"auth-services","timestamp":"2025-07-22T11:45:33.444Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:33.444Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:45:47.828Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:47.829Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:45:47.830Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:45:47.835Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:47.835Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:45:47.854Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:47.855Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:45:47.948Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:47.949Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:45:47.950Z"}
+{"level":"info","message":"Received GET request to /breaking-new?currentDate=2025-07-22T17:15","service":"auth-services","timestamp":"2025-07-22T11:45:55.262Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.263Z"}
+{"level":"info","message":"Received GET request to /web-settings/","service":"auth-services","timestamp":"2025-07-22T11:45:55.282Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.283Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-22T17:15&adSlot=Homepage%20Top%20Banner&tagetPage=&page=1","service":"auth-services","timestamp":"2025-07-22T11:45:55.285Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.286Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=sports&publishedDate=&subCategory=Top%20Stories&pageNumber=1&pageSize=4&subType=&category=null","service":"auth-services","timestamp":"2025-07-22T11:45:55.299Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.300Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=sports&publishedDate=&subCategory=Top%20News&pageNumber=1&pageSize=10&subType=&category=null","service":"auth-services","timestamp":"2025-07-22T11:45:55.306Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.307Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=sports&publishedDate=&subCategory=Editor%20Choice&pageNumber=1&pageSize=4&subType=&category=null","service":"auth-services","timestamp":"2025-07-22T11:45:55.314Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.315Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-22T17:15&adSlot=Article%20Sidebar&tagetPage=Only%20Article%20Page&page=1","service":"auth-services","timestamp":"2025-07-22T11:45:55.318Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.319Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=sports&publishedDate=&subCategory=Top%20News&pageNumber=2&pageSize=10&subType=&category=null","service":"auth-services","timestamp":"2025-07-22T11:45:55.343Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.343Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=sports&publishedDate=&subCategory=Latest%20News&pageNumber=1&pageSize=15&subType=&category=null","service":"auth-services","timestamp":"2025-07-22T11:45:55.368Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.379Z"}
+{"level":"info","message":"Received GET request to /article/sub-type?page=sports&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:45:55.382Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.382Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-22T11:45:55.384Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=sports&publishedDate=&subCategory=&pageNumber=1&pageSize=2&subType=&category=null","service":"auth-services","timestamp":"2025-07-22T11:45:55.411Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.412Z"}
+{"level":"info","message":"Received GET request to /media?newsType=imagegallery&pageNumber=1&pageSize=4&category=null","service":"auth-services","timestamp":"2025-07-22T11:45:55.418Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.418Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-22T17:15&adSlot=Homepage%20Top%20Banner&tagetPage=Only%20Article%20Page&page=1","service":"auth-services","timestamp":"2025-07-22T11:45:55.467Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.467Z"}
+{"level":"info","message":"Received GET request to /web-settings/","service":"auth-services","timestamp":"2025-07-22T11:45:55.481Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.482Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=sports&publishedDate=&subCategory=&pageNumber=1&pageSize=2&subType=Cricket&category=null","service":"auth-services","timestamp":"2025-07-22T11:45:55.605Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.606Z"}
+{"level":"info","message":"Received GET request to /uploads/1753181683274-823111084.webp","service":"auth-services","timestamp":"2025-07-22T11:45:55.632Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.632Z"}
+{"level":"info","message":"Received GET request to /uploads/1753181042274-370964407.webp","service":"auth-services","timestamp":"2025-07-22T11:45:55.634Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.634Z"}
+{"level":"info","message":"Received GET request to /uploads/1750849540416-468580767.png","service":"auth-services","timestamp":"2025-07-22T11:45:55.756Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.757Z"}
+{"level":"info","message":"Received GET request to /uploads/1750756370357-913842973.png","service":"auth-services","timestamp":"2025-07-22T11:45:55.770Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.771Z"}
+{"level":"info","message":"Received GET request to /uploads/1750756255286-837317951.png","service":"auth-services","timestamp":"2025-07-22T11:45:55.799Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:45:55.799Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:46:04.395Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:04.399Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:46:04.402Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:04.403Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:46:04.403Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:46:04.408Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:04.409Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:46:04.476Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:04.478Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:46:04.481Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:46:09.551Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:09.551Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:46:09.552Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:46:09.555Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:09.556Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:46:09.563Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:09.565Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:46:09.632Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:09.633Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:46:09.633Z"}
+{"level":"info","message":"Received POST request to /auth/login","service":"auth-services","timestamp":"2025-07-22T11:46:37.923Z"}
+{"level":"info","message":"Request body, [object Object]","service":"auth-services","timestamp":"2025-07-22T11:46:37.924Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:46:39.008Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:39.009Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:46:39.015Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:39.016Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:46:39.022Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:39.023Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:46:39.033Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:39.034Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:46:39.143Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:39.144Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:46:39.149Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:39.150Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:46:47.951Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:47.952Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:46:47.953Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:46:48.041Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:48.042Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:46:48.044Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=news&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:46:52.863Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:52.864Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:46:52.865Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:46:55.391Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:55.392Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:46:55.393Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:46:57.064Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:57.065Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:46:57.066Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=tech&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:46:58.600Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:58.601Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:46:58.602Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=health&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:46:59.702Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:46:59.703Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:46:59.704Z"}
+{"level":"info","message":"Received GET request to /e-paper?page=1&limit=10&category=&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:47:00.616Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:00.617Z"}
+{"level":"info","message":"Received GET request to /e-paper?page=1&limit=10&category=&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:47:00.696Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:00.697Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:47:05.023Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:05.024Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:47:05.026Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:05.026Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:47:05.041Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:05.041Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:47:05.043Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:05.044Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:47:05.085Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:05.085Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:47:05.096Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:05.096Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=cinema&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:47:08.642Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:08.643Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:47:08.643Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=cinema&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:47:08.704Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:08.705Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:47:08.707Z"}
+{"level":"info","message":"Received GET request to /media?newsType=imagegallery&pagesize=1&pagenumber=10","service":"auth-services","timestamp":"2025-07-22T11:47:09.749Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:09.750Z"}
+{"level":"info","message":"Received GET request to /media?newsType=imagegallery&pagesize=1&pagenumber=10","service":"auth-services","timestamp":"2025-07-22T11:47:09.807Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:09.808Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=tech&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:47:13.058Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:13.058Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:47:13.059Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=tech&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:47:13.147Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:13.148Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:47:13.149Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10&category=&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:47:14.189Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:14.190Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10&category=&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:47:14.245Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:14.246Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:47:15.502Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:15.503Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:47:15.504Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:47:15.642Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:15.643Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:47:15.645Z"}
+{"level":"info","message":"Received POST request to /auth/login","service":"auth-services","timestamp":"2025-07-22T11:47:16.096Z"}
+{"level":"info","message":"Request body, [object Object]","service":"auth-services","timestamp":"2025-07-22T11:47:16.097Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:47:16.628Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:16.631Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:47:16.634Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:16.635Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:47:16.652Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:16.653Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:47:16.655Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:16.656Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:47:16.695Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:16.696Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:47:16.715Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:16.715Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:47:19.389Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:19.392Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:47:19.394Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:47:19.474Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:47:19.474Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:47:19.475Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:48:47.718Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:48:47.719Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:48:47.725Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:48:47.726Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:48:47.736Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:48:47.737Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:48:47.740Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:48:47.741Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:48:47.752Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:48:47.753Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:48:47.798Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:48:47.798Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:48:49.576Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:48:49.577Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:48:49.577Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:48:49.584Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:48:49.584Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:48:49.630Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:48:49.631Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:48:49.654Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:48:49.655Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:48:49.656Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=health&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:48:52.794Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:48:52.794Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:48:52.795Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:48:54.788Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:48:54.790Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:48:54.792Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:49:38.780Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:38.780Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:49:38.781Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:49:38.785Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:38.785Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:49:38.825Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:38.826Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:49:38.859Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:38.859Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:49:38.860Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10&category=&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:49:42.024Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:42.025Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10&category=&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:49:42.069Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:42.070Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=tech&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:49:43.049Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:43.050Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:49:43.051Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=tech&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:49:43.103Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:43.104Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:49:43.105Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=career&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:49:44.280Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:44.282Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:49:44.283Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=news&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:49:45.409Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:45.410Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:49:45.412Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=family&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:49:46.532Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:46.533Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:49:46.534Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10&category=&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:49:48.175Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:48.176Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10&category=&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:49:48.217Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:48.218Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:49:50.313Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:50.314Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:49:50.316Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:50.317Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:49:50.321Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:50.321Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:49:50.395Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:50.396Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=health&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:49:51.450Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:51.453Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:49:51.460Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=health&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:49:51.520Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:51.522Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:49:51.523Z"}
+{"level":"info","message":"Received GET request to /e-paper?page=1&limit=10&category=&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:49:52.506Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:52.508Z"}
+{"level":"info","message":"Received GET request to /e-paper?page=1&limit=10&category=&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:49:52.609Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:52.611Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:49:57.482Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:57.483Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:49:57.486Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:57.487Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:49:57.498Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:57.500Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:49:57.503Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:57.504Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:49:57.571Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:57.572Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:49:57.585Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:57.587Z"}
+{"level":"info","message":"Received GET request to /ads?page=1&limit=10&heading=&tagetPage=&status=&adSlot=&endDateAndTime=&startDateAndTime=","service":"auth-services","timestamp":"2025-07-22T11:49:59.898Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:59.898Z"}
+{"level":"info","message":"Received GET request to /ads?page=1&limit=10&heading=&tagetPage=&status=&adSlot=&endDateAndTime=&startDateAndTime=","service":"auth-services","timestamp":"2025-07-22T11:49:59.950Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:49:59.951Z"}
+{"level":"info","message":"Received GET request to /uploads/1750762904662-465555391.png","service":"auth-services","timestamp":"2025-07-22T11:50:00.121Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:00.122Z"}
+{"level":"info","message":"Received GET request to /uploads/1753178434987-705633629.jpg","service":"auth-services","timestamp":"2025-07-22T11:50:00.125Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:00.125Z"}
+{"level":"info","message":"Received GET request to /uploads/1750763076894-970065284.webp","service":"auth-services","timestamp":"2025-07-22T11:50:00.131Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:00.132Z"}
+{"level":"info","message":"Received GET request to /media?newsType=imagegallery&pagesize=1&pagenumber=10","service":"auth-services","timestamp":"2025-07-22T11:50:01.182Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:01.183Z"}
+{"level":"info","message":"Received GET request to /media?newsType=imagegallery&pagesize=1&pagenumber=10","service":"auth-services","timestamp":"2025-07-22T11:50:01.236Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:01.237Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=cinema&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:50:02.606Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:02.607Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:50:02.609Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=cinema&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:50:02.767Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:02.767Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:50:02.768Z"}
+{"level":"info","message":"Received GET request to /ads?page=1&limit=10&heading=&tagetPage=&status=&adSlot=&endDateAndTime=&startDateAndTime=","service":"auth-services","timestamp":"2025-07-22T11:50:04.605Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:04.606Z"}
+{"level":"info","message":"Received GET request to /ads?page=1&limit=10&heading=&tagetPage=&status=&adSlot=&endDateAndTime=&startDateAndTime=","service":"auth-services","timestamp":"2025-07-22T11:50:04.657Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:04.658Z"}
+{"level":"info","message":"Received GET request to /uploads/1753178434987-705633629.jpg","service":"auth-services","timestamp":"2025-07-22T11:50:04.708Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:04.709Z"}
+{"level":"info","message":"Received GET request to /uploads/1750762904662-465555391.png","service":"auth-services","timestamp":"2025-07-22T11:50:04.711Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:04.712Z"}
+{"level":"info","message":"Received GET request to /uploads/1750763076894-970065284.webp","service":"auth-services","timestamp":"2025-07-22T11:50:04.713Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:04.713Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:50:04.736Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:04.737Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:50:04.737Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:50:04.741Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:04.741Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:50:04.878Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:04.878Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:50:04.905Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:04.906Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:50:04.906Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:50:07.687Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:07.688Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:50:07.689Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:50:07.692Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:07.693Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:50:07.784Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:07.785Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:50:07.786Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:50:07.860Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:50:07.861Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:51:19.180Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:19.181Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:51:19.183Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:19.183Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:51:19.194Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:19.195Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:51:19.261Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:19.267Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10&category=&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:51:26.922Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:26.923Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10&category=&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:51:26.984Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:26.984Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:51:30.580Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:30.581Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:51:30.582Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T11:51:30.673Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:30.674Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T11:51:30.675Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:51:34.967Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:34.969Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:51:34.973Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:34.974Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:51:34.985Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:34.986Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:51:35.084Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:35.086Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:51:53.404Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:53.405Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:51:53.407Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:53.408Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:51:53.414Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:53.414Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:51:53.416Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:53.416Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:51:53.465Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:53.466Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:51:53.480Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:51:53.480Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:53:03.454Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:53:03.455Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:53:03.457Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:53:03.458Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:53:03.478Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:53:03.480Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T11:53:03.483Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:53:03.484Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T11:53:03.492Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:53:03.492Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T11:53:03.548Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T11:53:03.549Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T12:04:21.514Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:04:21.519Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T12:04:21.524Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:04:21.525Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T12:04:21.538Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:04:21.539Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T12:04:21.542Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:04:21.542Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T12:04:21.587Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:04:21.588Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T12:04:21.607Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:04:21.607Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T12:04:52.528Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:04:52.529Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T12:04:52.531Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:04:52.532Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T12:04:52.538Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:04:52.538Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T12:04:52.552Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:04:52.553Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T12:04:52.580Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:04:52.581Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T12:04:52.609Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:04:52.610Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T12:06:45.116Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:06:45.117Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T12:06:45.121Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:06:45.122Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T12:06:45.130Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:06:45.130Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T12:06:45.153Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:06:45.154Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T12:06:45.199Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:06:45.200Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T12:06:45.234Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:06:45.235Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T12:06:49.096Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:06:49.097Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T12:06:49.098Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T12:06:49.236Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:06:49.238Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T12:06:49.240Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T12:08:58.296Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:08:58.297Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T12:08:58.300Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:08:58.300Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T12:08:58.305Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:08:58.306Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T12:08:58.316Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:08:58.317Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T12:08:58.342Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:08:58.343Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T12:08:58.370Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:08:58.370Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T12:09:01.080Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:09:01.081Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T12:09:01.082Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T12:09:01.166Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:09:01.167Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T12:09:01.168Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T12:14:53.868Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:14:53.869Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T12:14:53.870Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T12:14:53.876Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:14:53.878Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T12:14:53.930Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:14:53.931Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T12:14:53.952Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:14:53.953Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T12:14:53.954Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T12:15:10.059Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:15:10.060Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T12:15:10.061Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T12:15:10.067Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:15:10.069Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T12:15:10.112Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:15:10.113Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T12:15:10.137Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:15:10.138Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T12:15:10.140Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T12:53:45.437Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:53:45.441Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T12:53:45.445Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T12:53:45.469Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:53:45.470Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T12:53:45.566Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:53:45.567Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T12:53:45.569Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T12:53:45.582Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:53:45.584Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T12:59:06.027Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:59:06.028Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T12:59:06.037Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:59:06.038Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T12:59:06.039Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T12:59:06.071Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:59:06.072Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T12:59:06.130Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T12:59:06.135Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T12:59:06.135Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:05:26.517Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:05:26.518Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:05:26.519Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:05:26.524Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:05:26.525Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:05:26.567Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:05:26.568Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:05:26.594Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:05:26.619Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:05:26.620Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:14:41.025Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:14:41.025Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:14:41.026Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:14:41.038Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:14:41.038Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:14:41.117Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:14:41.117Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:14:41.118Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:14:41.127Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:14:41.127Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-22T13:20:27.510Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-22T13:20:28.165Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T13:20:53.502Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:20:53.504Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T13:20:53.540Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:20:53.550Z"}
+{"level":"info","message":"Received GET request to /analitics/","service":"auth-services","timestamp":"2025-07-22T13:20:53.628Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:20:53.629Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:20:53.649Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:20:53.651Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:20:53.715Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:20:53.716Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:20:53.717Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:20:53.789Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:20:53.791Z"}
+{"level":"info","message":"Received GET request to /auth/users?page=1&limit=10&search=&status=","service":"auth-services","timestamp":"2025-07-22T13:20:53.864Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:20:53.864Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:20:57.024Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:20:57.029Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:20:57.030Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:20:57.123Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:20:57.124Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:20:57.125Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:24:47.134Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:24:47.151Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:24:47.156Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:24:47.211Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:24:47.211Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:24:47.363Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:24:47.364Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:24:47.364Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:24:47.372Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:24:47.372Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:31:29.258Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:31:29.276Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:31:29.276Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:31:29.282Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:31:29.283Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:31:29.366Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:31:29.372Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:31:29.398Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:31:29.399Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:31:29.399Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:32:05.630Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:32:05.631Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:32:05.631Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:32:05.641Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:32:05.642Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:32:05.684Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:32:05.684Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:32:05.719Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:32:05.721Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:32:05.726Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:33:06.030Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:33:06.031Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:33:06.032Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:33:06.043Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:33:06.043Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:33:06.088Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:33:06.088Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:33:06.143Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:33:06.143Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:33:06.144Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:33:39.251Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:33:39.251Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:33:39.253Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:33:39.313Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:33:39.317Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:33:39.346Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:33:39.349Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:33:39.350Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:33:39.370Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:33:39.371Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:33:55.852Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:33:55.853Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:33:55.853Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:33:55.859Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:33:55.860Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:33:55.921Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:33:55.922Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:33:55.954Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:33:55.955Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:33:55.956Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:34:28.768Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:34:28.769Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:34:28.770Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:34:28.781Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:34:28.781Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:34:28.901Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:34:28.901Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:34:29.022Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:34:29.022Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:34:29.023Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:35:26.001Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:35:26.002Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:35:26.003Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:35:26.006Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:35:26.006Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:35:26.047Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:35:26.048Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:35:26.078Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:35:26.079Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:35:26.083Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:35:54.671Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:35:54.672Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:35:54.672Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:35:54.678Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:35:54.681Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:35:54.723Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:35:54.724Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:35:54.745Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:35:54.745Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:35:54.746Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:36:15.368Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:36:15.368Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:36:15.369Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:36:15.376Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:36:15.377Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:36:15.415Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:36:15.415Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:36:15.439Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:36:15.439Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:36:15.439Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:36:27.183Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:36:27.184Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:36:27.185Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:36:27.192Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:36:27.193Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:36:27.231Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:36:27.232Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:36:27.256Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:36:27.257Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:36:27.257Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:37:38.174Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:37:38.175Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:37:38.175Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:37:38.191Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:37:38.193Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:37:38.238Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:37:38.239Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:37:38.256Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:37:38.257Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:37:38.257Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:38:16.825Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:38:16.825Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:38:16.829Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:38:16.848Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:38:16.849Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:38:16.888Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:38:16.888Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:38:16.907Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:38:16.908Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:38:16.909Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:39:25.490Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:39:25.492Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:39:25.494Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:39:25.503Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:39:25.503Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T13:39:25.541Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:39:25.546Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T13:39:25.569Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T13:39:25.570Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T13:39:25.571Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-22T15:00:02.694Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-22T15:00:03.723Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:24:49.084Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:24:49.092Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:24:49.096Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:24:49.190Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:24:49.191Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:24:49.349Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:24:49.351Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:24:49.353Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:24:49.367Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:24:49.367Z"}
+{"level":"info","message":"Received POST request to /article/","service":"auth-services","timestamp":"2025-07-22T16:25:24.697Z"}
+{"level":"info","message":"Request body, [object Object]","service":"auth-services","timestamp":"2025-07-22T16:25:24.697Z"}
+{"level":"info","message":"Received POST request to /article/","service":"auth-services","timestamp":"2025-07-22T16:26:06.480Z"}
+{"level":"info","message":"Request body, [object Object]","service":"auth-services","timestamp":"2025-07-22T16:26:06.481Z"}
+{"level":"info","message":"Received POST request to /article/","service":"auth-services","timestamp":"2025-07-22T16:26:37.546Z"}
+{"level":"info","message":"Request body, [object Object]","service":"auth-services","timestamp":"2025-07-22T16:26:37.547Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-22T16:27:58.509Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-22T16:28:00.031Z"}
+{"level":"info","message":"Received POST request to /article","service":"auth-services","timestamp":"2025-07-22T16:28:08.212Z"}
+{"level":"info","message":"Request body, [object Object]","service":"auth-services","timestamp":"2025-07-22T16:28:08.213Z"}
+{"level":"info","message":"Received GET request to /","service":"auth-services","timestamp":"2025-07-22T16:28:54.394Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:28:54.395Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-22T16:29:35.832Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-22T16:29:36.837Z"}
+{"level":"info","message":"Received GET request to /","service":"auth-services","timestamp":"2025-07-22T16:29:37.555Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:29:37.555Z"}
+{"level":"info","message":"Received GET request to /favicon.ico","service":"auth-services","timestamp":"2025-07-22T16:29:37.744Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:29:37.745Z"}
+{"level":"info","message":"Received POST request to /article","service":"auth-services","timestamp":"2025-07-22T16:29:53.019Z"}
+{"level":"info","message":"Request body, [object Object]","service":"auth-services","timestamp":"2025-07-22T16:29:53.019Z"}
+{"level":"info","message":"Received POST request to /article","service":"auth-services","timestamp":"2025-07-22T16:30:41.477Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:30:41.478Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-22T16:30:41.491Z"}
+{"level":"error","message":"❌Article Upload Failed : ValidationError: publishedDate: Path `publishedDate` is required., category: `undefined` is not a valid enum value for path `category`.","service":"auth-services","stack":"ValidationError: Article validation failed: publishedDate: Path `publishedDate` is required., category: `undefined` is not a valid enum value for path `category`.\n    at Document.invalidate (C:\\Users\\tejme\\Downloads\\church-new\\new-server\\node_modules\\mongoose\\lib\\document.js:3343:32)\n    at C:\\Users\\tejme\\Downloads\\church-new\\new-server\\node_modules\\mongoose\\lib\\document.js:3104:17\n    at C:\\Users\\tejme\\Downloads\\church-new\\new-server\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-22T16:30:41.511Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-22T16:31:25.089Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-22T16:31:26.455Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-22T16:32:56.727Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-22T16:32:59.405Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-22T16:33:04.032Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-22T16:33:06.929Z"}
+{"level":"info","message":"Received POST request to /article","service":"auth-services","timestamp":"2025-07-22T16:33:09.219Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:33:09.220Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-22T16:33:09.253Z"}
+{"level":"error","message":"❌Article Upload Failed : ValidationError: category: `undefined` is not a valid enum value for path `category`.","service":"auth-services","stack":"ValidationError: Article validation failed: category: `undefined` is not a valid enum value for path `category`.\n    at Document.invalidate (C:\\Users\\tejme\\Downloads\\church-new\\new-server\\node_modules\\mongoose\\lib\\document.js:3343:32)\n    at C:\\Users\\tejme\\Downloads\\church-new\\new-server\\node_modules\\mongoose\\lib\\document.js:3104:17\n    at C:\\Users\\tejme\\Downloads\\church-new\\new-server\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-22T16:33:09.268Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:33:30.748Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:33:30.751Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:33:30.752Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:33:30.793Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:33:30.793Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:33:30.895Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:33:30.895Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:33:30.896Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:33:30.909Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:33:30.910Z"}
+{"level":"info","message":"Received POST request to /article","service":"auth-services","timestamp":"2025-07-22T16:33:56.113Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:33:56.114Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-22T16:33:56.130Z"}
+{"level":"error","message":"❌Article Upload Failed : ValidationError: category: `undefined` is not a valid enum value for path `category`.","service":"auth-services","stack":"ValidationError: Article validation failed: category: `undefined` is not a valid enum value for path `category`.\n    at Document.invalidate (C:\\Users\\tejme\\Downloads\\church-new\\new-server\\node_modules\\mongoose\\lib\\document.js:3343:32)\n    at C:\\Users\\tejme\\Downloads\\church-new\\new-server\\node_modules\\mongoose\\lib\\document.js:3104:17\n    at C:\\Users\\tejme\\Downloads\\church-new\\new-server\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-22T16:33:56.137Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:35:26.685Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:35:26.686Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:35:26.686Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:35:26.697Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:35:26.698Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:35:26.774Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:35:26.775Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:35:28.072Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:35:28.072Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:35:28.073Z"}
+{"level":"info","message":"Received POST request to /article","service":"auth-services","timestamp":"2025-07-22T16:35:39.095Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:35:39.096Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-22T16:35:39.120Z"}
+{"level":"info","message":"Received POST request to /article","service":"auth-services","timestamp":"2025-07-22T16:36:36.157Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:36:36.158Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-22T16:36:36.166Z"}
+{"level":"info","message":"Received POST request to /article","service":"auth-services","timestamp":"2025-07-22T16:37:09.881Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:37:09.882Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-22T16:37:09.892Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-22T16:37:37.757Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-22T16:37:39.951Z"}
+{"level":"info","message":"Received POST request to /article","service":"auth-services","timestamp":"2025-07-22T16:42:03.322Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:42:03.323Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-22T16:42:03.342Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:42:32.541Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:42:32.542Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:42:32.546Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:42:32.581Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:42:32.582Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:42:32.674Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:42:32.675Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:42:32.675Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:42:32.680Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:42:32.680Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:46:56.632Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:46:56.633Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:46:56.635Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:46:56.642Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:46:56.643Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:46:56.727Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:46:56.728Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:46:56.737Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:46:56.737Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:46:56.738Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:47:50.015Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:47:50.015Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:47:50.015Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:47:50.021Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:47:50.022Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:47:50.085Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:47:50.085Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:47:50.093Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:47:50.094Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:47:50.094Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:50:12.030Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:50:12.030Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:50:12.031Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:50:12.042Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:50:12.043Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:50:12.096Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:50:12.096Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:50:12.109Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:50:12.109Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:50:12.109Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:50:36.880Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:50:36.881Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:50:36.882Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:50:36.896Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:50:36.896Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:50:36.967Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:50:36.969Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:50:36.976Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:50:36.976Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:50:36.978Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:51:34.085Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:51:34.087Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:51:34.090Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:51:41.156Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:51:41.156Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:51:41.157Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:51:41.165Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:51:41.167Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:51:41.262Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:51:41.265Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:51:41.268Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:51:41.273Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:51:41.274Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:53:10.506Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:53:10.507Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:53:10.507Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:53:10.515Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:53:10.516Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:53:10.603Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:53:10.603Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:53:10.610Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:53:10.610Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:53:10.611Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:57:00.118Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:57:00.119Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:57:00.120Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:57:00.130Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:57:00.131Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:57:00.195Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:57:00.196Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:57:00.196Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T16:57:00.200Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:57:00.201Z"}
+{"level":"info","message":"Received GET request to /article?page=2&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:57:41.621Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:57:41.622Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:57:41.622Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T16:57:46.622Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T16:57:46.622Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T16:57:46.623Z"}
+{"level":"info","message":"Received GET request to /article?page=2&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:14:08.302Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:14:08.303Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:14:08.303Z"}
+{"level":"info","message":"Received GET request to /article?page=2&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:14:11.281Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:14:11.281Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:14:11.281Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:14:16.031Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:14:16.031Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:14:16.032Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&search=free&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:14:50.680Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:14:50.681Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:14:50.681Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:14:54.392Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:14:54.392Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:14:54.392Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:17:50.077Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:17:50.078Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:17:50.078Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:17:50.088Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:17:50.088Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:17:50.192Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:17:50.193Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:17:50.197Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:17:50.197Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:17:50.198Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:18:01.030Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:18:01.031Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:18:01.032Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:19:38.033Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:19:38.034Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:19:38.034Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:19:38.044Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:19:38.045Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:19:38.138Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:19:38.139Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:19:38.144Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:19:38.145Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:19:38.146Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:19:48.049Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:19:48.050Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:19:48.051Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:19:48.059Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:19:48.059Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:19:48.279Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:19:48.279Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:19:48.309Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:19:48.310Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:19:48.311Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:20:21.034Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:20:21.035Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:20:21.036Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:20:21.044Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:20:21.044Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:20:21.123Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:20:21.123Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:20:21.135Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:20:21.136Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:20:21.136Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:20:36.920Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:20:36.921Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:20:36.922Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:20:36.928Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:20:36.929Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:20:37.010Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:20:37.011Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:20:37.012Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:20:37.017Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:20:37.020Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:21:38.042Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:21:38.043Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:21:38.044Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:21:38.052Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:21:38.052Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:21:38.158Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:21:38.159Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:21:38.169Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:21:38.170Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:21:38.171Z"}
+{"level":"info","message":"Received GET request to /uploads/1750422018783-575385617.jpg","service":"auth-services","timestamp":"2025-07-22T17:25:31.808Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:25:31.808Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:27:51.048Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:27:51.048Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:27:51.049Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:27:51.056Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:27:51.056Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:27:51.141Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:27:51.142Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:27:51.160Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:27:51.161Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:27:51.161Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:34:32.112Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:34:32.113Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:34:32.114Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:34:32.122Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:34:32.122Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:34:32.206Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:34:32.207Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:34:32.211Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:34:32.212Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:34:32.212Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:44:18.128Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:44:18.129Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:44:18.130Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:44:18.142Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:44:18.142Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:44:18.232Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:44:18.233Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:44:18.240Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:44:18.241Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:44:18.242Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:46:07.013Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:46:07.014Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:46:07.015Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:46:07.024Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:46:07.025Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-22T17:46:07.156Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:46:07.157Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:46:07.162Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:46:07.163Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:46:07.167Z"}
+{"level":"info","message":"Received GET request to /uploads/1750849540416-468580767.png","service":"auth-services","timestamp":"2025-07-22T17:46:10.283Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:46:10.284Z"}
+{"level":"info","message":"Received GET request to /uploads/1753181683274-823111084.webp","service":"auth-services","timestamp":"2025-07-22T17:47:32.860Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:47:32.860Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:49:04.020Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:49:04.021Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:49:04.021Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:49:08.893Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:49:08.893Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:49:08.894Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:49:11.970Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:49:11.971Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:49:11.971Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=news&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:49:17.039Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:49:17.040Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:49:17.040Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-22T17:49:21.436Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:49:21.436Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-22T17:49:21.436Z"}
+{"level":"info","message":"Received GET request to /uploads/1753181683274-823111084.webp","service":"auth-services","timestamp":"2025-07-22T17:49:31.005Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-22T17:49:31.007Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-22T17:49:42.919Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-22T17:49:44.150Z"}

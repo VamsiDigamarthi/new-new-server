@@ -62,4 +62,9 @@ app.use("/media", MediaRoute);
 app.use("/ads", AdsRoute);
 
 startHTTPServer();
+
+app.get("/", async (req, res) => {
+  return res.status(200).json({ message: "hi" });
+});
+
 // logger.warn(`⚠️ Order ${orderId} already accepted or cancelled`);

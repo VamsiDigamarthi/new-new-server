@@ -79,6 +79,12 @@ const articleSchema = new Schema(
     publishedDate: {
       type: String,
       required: true,
+      default: () => new Date().toISOString().split("T")[0],
+    },
+    publishedTime: {
+      type: String,
+      required: true,
+      default: () => new Date().toTimeString().split(" ")[0],
     },
     status: {
       type: String,
