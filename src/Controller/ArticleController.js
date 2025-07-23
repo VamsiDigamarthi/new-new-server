@@ -15,6 +15,8 @@ export const createArticleController = async (req, res) => {
       // author: "684a80a19f62190c0e6a4cc3",
       image: req.file?.path || null,
     };
+    // console.log("articleData", articleData);
+
     await createArticleService(articleData);
 
     return sendResponse(res, 200, "Article created successfully");
