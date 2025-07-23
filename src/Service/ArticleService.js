@@ -14,6 +14,7 @@ export const getArticlesService = async (queryParams) => {
     status,
     startDate,
     endDate,
+    subCategory,
   } = queryParams;
 
   const query = {};
@@ -26,9 +27,25 @@ export const getArticlesService = async (queryParams) => {
     ];
   }
 
-  // 🎯 Category & Status Filter
   if (category) query.category = category;
-  if (status) query.status = status;
+  if (subCategory) query.subCategory = subCategory;
+  // status === "Active"  status ==="Scheduled"
+  if (status === "Active" || status === "Scheduled") {
+    const today = new Date().toISOString().split("T")[0]; // "YYYY-MM-DD"
+    const now = new Date().toTimeString().split(" ")[0]; // "HH:mm:ss"
+
+    if (status === "Active") {
+      query.$or = [
+        { publishedDate: { $lt: today } },
+        { publishedDate: today, publishedTime: { $lte: now } },
+      ];
+    } else if (status === "Scheduled") {
+      query.$or = [
+        { publishedDate: { $gt: today } },
+        { publishedDate: today, publishedTime: { $gt: now } },
+      ];
+    }
+  }
 
   // 📆 Date range filtering
   if (startDate && endDate) {

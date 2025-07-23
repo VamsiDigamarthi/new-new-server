@@ -2,12 +2,12 @@ import { createEPaper, getAllEPapers } from "../Service/EPaperService.js";
 
 export const createEPaperController = async (req, res) => {
   try {
-    const { editionTitle, category } = req.body;
+    const { editionTitle, category, state } = req.body;
     if (!req.file) {
       return res.status(400).json({ message: "File is required" });
     }
 
-    const paper = await createEPaper(category, editionTitle, req.file);
+    const paper = await createEPaper(category, editionTitle, state, req.file);
     res
       .status(201)
       .json({ message: "EPaper created successfully", data: paper });

@@ -1,12 +1,13 @@
 import EPaperModel from "../Modals/EPaperModal.js";
 
-export const createEPaper = async (category, editionTitle, file) => {
+export const createEPaper = async (category, editionTitle, state, file) => {
   const filePath = file?.path || null;
 
   const newEPaper = new EPaperModel({
     category,
     editionTitle,
     filePath,
+    state,
   });
 
   return await newEPaper.save();

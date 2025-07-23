@@ -26,8 +26,8 @@ const articleSchema = new Schema(
       required: true,
     },
     author: {
-      type: String,
-      default: null,
+      type: Schema.Types.ObjectId,
+      ref: "User",
     },
     tags: {
       type: [String],
@@ -39,6 +39,7 @@ const articleSchema = new Schema(
     category: {
       type: String,
       enum: [
+        // "Home",
         "politics",
         "tech",
         "career",
@@ -109,6 +110,10 @@ const articleSchema = new Schema(
     },
     time: {
       type: String,
+    },
+    managerNews: {
+      type: Boolean,
+      default: false,
     },
   },
   {
