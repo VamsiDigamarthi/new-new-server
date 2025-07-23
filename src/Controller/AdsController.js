@@ -2,14 +2,16 @@ import { AdsModel } from "../Modals/AdsModal.js";
 import { createAd } from "../Service/AdsService.js";
 
 const adSlotDimensions = {
-  "Homepage Top Banner": { width: "970px", height: "250px" },
+  "Top Banner": { width: "970px", height: "250px" },
   "Article Sidebar": { width: "300px", height: "600px" },
   Middle: { width: "728px", height: "90px" },
-  "Category Footer": { width: "970px", height: "90px" },
+  Footer: { width: "970px", height: "90px" },
 };
 
 export const createAdController = async (req, res) => {
   try {
+    console.log("req.body", req.body);
+
     const { file } = req;
     const adData = { ...req.body };
 

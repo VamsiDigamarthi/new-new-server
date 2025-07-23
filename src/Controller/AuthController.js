@@ -62,7 +62,9 @@ export const loginController = async (req, res) => {
 
 export const getUsersController = async (req, res) => {
   const { page, limit, search, status } = req.query;
-  const query = { role: "Employee" };
+  const query = {
+    role: { $in: ["Admin", "Editor", "Chief Editor", "Reader"] },
+  };
   if (search) {
     query.$or = [
       { name: { $regex: search, $options: "i" } },
@@ -88,7 +90,7 @@ export const getUsersController = async (req, res) => {
       totalPages: Math.ceil(total / limit),
     });
   } catch (error) {
-    logger.error(`❌User Fetching Faield ${email}: ${error}`, {
+    logger.error(`❌ User Fetching Failed: ${error.message}`, {
       stack: error.stack,
     });
     return sendResponse(res, 500, "User Fetching Faield", error);
@@ -172,6 +174,16 @@ export const forgotPassword = async (req, res) => {
       $set: { password: hashedPassword },
     });
     return res.status(200).json({ message: "Password changes successfully" });
+  } catch (error) {
+    res.status(400).json({ status: false, message: error.message });
+  }
+};
+
+export const deletUser = async (req, res) => {
+  const { id } = req.params;
+  try {
+    await UserModel.findByIdAndDelete(id);
+    return res.status(200).json({ message: "Deleted..!" });
   } catch (error) {
     res.status(400).json({ status: false, message: error.message });
   }

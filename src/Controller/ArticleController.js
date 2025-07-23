@@ -12,7 +12,6 @@ export const createArticleController = async (req, res) => {
   try {
     const articleData = {
       ...req.body,
-      // author: "684a80a19f62190c0e6a4cc3",
       image: req.file?.path || null,
     };
     // console.log("articleData", articleData);
@@ -50,7 +49,10 @@ export const getSingleArticlesController = async (req, res) => {
   logger.info("📄 Get Single Articles API hit");
   const { page, id } = req.params;
   try {
-    const art = await ArticleModel.findOne({ _id: id });
+    const art = await ArticleModel.findOne({ _id: id }).populate(
+      "author",
+      "name email role -_id "
+    );
     return res.status(200).json(art);
   } catch (error) {
     logger.error("❌ Failed to fetch articles", { error: error.message });

@@ -8,21 +8,21 @@ const adsSchema = new mongoose.Schema(
     },
     adSlot: {
       type: String,
-      enum: [
-        "Homepage Top Banner",
-        "Article Sidebar",
-        "Middle",
-        "Category Footer",
-      ],
-      default: "Homepage Top Banner",
+      enum: ["Top Banner", "Article Sidebar", "Middle", "Category Footer"],
+      default: "Top Banner",
     },
     tagetPage: {
       type: String,
       enum: [
-        "Only Home Page",
-        "Only Article Page",
-        "Only Category Page",
-        "All Pages",
+        "Home",
+        "politics",
+        "business",
+        "tech",
+        "sports",
+        "cinema",
+        "health",
+        "career",
+        "family",
       ],
       default: "Homepage Top Banner",
     },
@@ -46,8 +46,27 @@ const adsSchema = new mongoose.Schema(
     targetLink: {
       type: String,
     },
-    startDateAndTime: { type: String, required: true },
-    endDateAndTime: { type: String, required: true },
+
+    startDateAndTime: {
+      type: String,
+      required: true,
+      default: () => {
+        const now = new Date();
+        const istTime = new Date(now.getTime() + 5.5 * 60 * 60 * 1000); // IST offset
+        return istTime.toISOString().replace("T", " ").split(".")[0]; // 'YYYY-MM-DD HH:mm:ss'
+      },
+    },
+    endDateAndTime: {
+      type: String,
+      required: true,
+      default: () => {
+        const now = new Date();
+        const istTime = new Date(now.getTime() + 5.5 * 60 * 60 * 1000);
+        istTime.setDate(istTime.getDate() + 10); // add 10 days
+        return istTime.toISOString().replace("T", " ").split(".")[0];
+      },
+    },
+
     width: { type: String, default: "0px" },
     height: { type: String, default: "0px" },
     dimenstionActive: { type: Boolean, default: true },

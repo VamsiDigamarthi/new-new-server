@@ -8,7 +8,7 @@ const ePaperSchema = new Schema({
     default: "Telangana",
     required: true,
   },
-
+  state: { type: String, required: true },
   editionTitle: {
     type: String,
     required: true,
