@@ -7,6 +7,7 @@ import {
   getArticlesController,
   getArticlesControllerToNewsWeb,
   getArticlesSubTypeController,
+  getFutureArticles,
   getSingleArticlesController,
   getTopNewsByCategory,
 } from "../Controller/ArticleController.js";
@@ -28,5 +29,6 @@ router.get("/new-web", getArticlesControllerToNewsWeb);
 router.get("/sub-type", getArticlesSubTypeController);
 router.get("/all-type", getTopNewsByCategory);
 router.delete("/:id", deletArticle);
+router.get("/future-articles", getFutureArticles);
 
 export default router;

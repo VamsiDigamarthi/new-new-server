@@ -30,6 +30,8 @@ export const getArticlesService = async (queryParams) => {
   if (category) query.category = category;
   if (subCategory) query.subCategory = subCategory;
   // status === "Active"  status ==="Scheduled"
+  console.log("status", status);
+
   if (status === "Active" || status === "Scheduled") {
     const today = new Date().toISOString().split("T")[0]; // "YYYY-MM-DD"
     const now = new Date().toTimeString().split(" ")[0]; // "HH:mm:ss"
