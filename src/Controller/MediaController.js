@@ -10,8 +10,21 @@ export const addNewMedia = async (req, res) => {
     const extraFiles = req.files?.extraMedia?.map((e) => e.path) || [];
     console.log(thumbnailImage, extraFiles);
 
+    const data = req.body;
+
+    console.log(data, "from ew");
+
+    if (!data.startTime || !data.endTime) {
+      data.status = "Active";
+    }
+
+    if (!data.date) {
+      data.date = new Date().toISOString().split("T")[0];
+    }
+
     const newMedia = await ArticleModel.create({
       ...req.body,
+      ...data,
       author: new mongoose.Types.ObjectId(),
       newsType: req.body.mediaType,
       image: thumbnailImage,
@@ -37,6 +50,8 @@ export const getGalleryData = async (req, res) => {
     if (newsType) query.newsType = newsType;
 
     console.log(newsType, "-----------TYOE");
+
+    console.log(category, "-----------TYOE");
 
     if (category && category !== "null" && category !== "") {
       query.category = category;
