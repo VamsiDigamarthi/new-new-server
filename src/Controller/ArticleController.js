@@ -85,7 +85,6 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
       subType,
 
       managerNews = false,
-
     } = req.query;
 
     const query = { managerNews };
@@ -312,5 +311,5 @@ export const getFutureArticles = async (req, res) => {
       success: false,
       message: "Server Error",
     });
-
-
+  }
+};

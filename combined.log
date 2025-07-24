@@ -1,0 +1,2 @@
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T05:00:50.922Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T05:00:51.372Z"}
