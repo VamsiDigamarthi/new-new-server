@@ -9,6 +9,7 @@ import {
   createBreakingNewsController,
   editBreakingNews,
   getBreakingNews,
+  deleteBreakingNews,
 } from "../Controller/BreakingNewsController.js";
 import upload from "../Middlewares/fileUpload.js";
 
@@ -23,4 +24,6 @@ router.put(
   validate(tickerSettingSchema),
   changeTickerSetting
 );
+
+router.delete("/delete-breaking-news/:id", deleteBreakingNews);
 export default router;

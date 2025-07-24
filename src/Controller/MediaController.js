@@ -208,3 +208,22 @@ export const editMedia = async (req, res) => {
     return sendResponse(res, 500, "Edit Media Failed", error.message);
   }
 };
+
+export const deleteMedia = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const media = await ArticleModel.findByIdAndDelete(id);
+
+    if (!media) {
+      return res.status(404).send({ message: "Not found" });
+    }
+
+    return res.status(200).send({ message: "Deleted" });
+  } catch (error) {
+    logger.error(`❌ Dekete Media Failed : ${error.message}`, {
+      stack: error.stack,
+    });
+    return sendResponse(res, 500, "Edit Media Failed", error.message);
+  }
+};

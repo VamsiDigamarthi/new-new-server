@@ -4,6 +4,7 @@ import {
   getBothImageAndVideo,
   getGalleryData,
   editMedia,
+  deleteMedia,
   // getGalleryPageData,
 } from "../Controller/MediaController.js";
 import { mediaSchema } from "../Validations/mediavalidation.js";
@@ -35,6 +36,8 @@ router.put(
 
   editMedia
 );
+
+router.delete("/delete-media/:id", deleteMedia);
 
 // router.get("/gallery/:type", getGalleryPageData);
 
