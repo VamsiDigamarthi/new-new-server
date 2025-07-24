@@ -16,7 +16,7 @@ const router = express.Router();
 
 router.post("/", upload.single("image"), createBreakingNewsController);
 router.get("/", getBreakingNews);
-router.put("/:id", editBreakingNews);
+router.put("/edit-breaking-news/:id", upload.single("image"), editBreakingNews);
 
 router.put(
   "/ticker-setting",

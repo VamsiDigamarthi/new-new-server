@@ -1,4 +1,5 @@
 import ArticleModel from "../Modals/ArticleModel.js";
+import BreakingNewsTickerModel from "../Modals/BreakingNewsTickerModal.js";
 import {
   createBreakingNewsService,
   fetchBreakingNews,
@@ -71,9 +72,15 @@ export const editBreakingNews = async (req, res) => {
   try {
     const { id } = req.params;
 
-    const updated = await ArticleModel.findByIdAndUpdate(id, {
-      $set: req.body,
+    if (req.file) {
+      data.image = req.file?.path;
+    }
+
+    const updated = await BreakingNewsTickerModel.findByIdAndUpdate(id, {
+      $set: data,
     });
+
+    // console.log(updated);
 
     if (!updated) {
       return res.status(404).send({ message: "Not Found" });

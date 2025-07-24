@@ -79,6 +79,59 @@ export const getGalleryData = async (req, res) => {
   }
 };
 
+export const getBothImageAndVideo = async (req, res) => {
+  try {
+    const query = {};
+    const { pageSize, pageNumber, category } = req.query;
+
+    console.log(category, "-----------CATEGORY");
+
+    if (category && category !== "null" && category !== "") {
+      query.category = category;
+    }
+
+    query.newsType = {
+      $in: ["imagegallery", "videogallery"],
+    };
+
+    // Convert to integers with defaults
+    const limit = pageSize ? parseInt(pageSize) : 10;
+    const page = pageNumber ? parseInt(pageNumber) : 1;
+    const skip = (page - 1) * limit;
+
+    // Get total count for pagination
+    const totalDocuments = await ArticleModel.countDocuments(query);
+    const totalPages = Math.ceil(totalDocuments / limit);
+
+    // Get paginated data
+    const GalleryData = await ArticleModel.find(query)
+      .sort({ createdAt: -1 })
+      .skip(skip)
+      .limit(limit);
+
+    // Prepare pagination info
+    const paginationInfo = {
+      data: GalleryData,
+      pagination: {
+        currentPage: page,
+        totalPages: totalPages,
+        totalDocuments: totalDocuments,
+        hasNextPage: page < totalPages,
+        hasPrevPage: page > 1,
+        nextPage: page < totalPages ? page + 1 : null,
+        prevPage: page > 1 ? page - 1 : null,
+      },
+    };
+
+    return res.status(200).json(paginationInfo);
+  } catch (error) {
+    logger.error(`❌Get Gallery Data Failed : ${error}`, {
+      stack: error.stack,
+    });
+    return sendResponse(res, 500, "Get Gallery Data Failed", error);
+  }
+};
+
 // export const getGalleryPageData = async (req, res) => {
 //   try {
 //     const { type } = req.params;

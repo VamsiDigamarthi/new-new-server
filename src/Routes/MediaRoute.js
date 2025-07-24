@@ -1,6 +1,7 @@
 import { Router } from "express";
 import {
   addNewMedia,
+  getBothImageAndVideo,
   getGalleryData,
   // getGalleryPageData,
 } from "../Controller/MediaController.js";
@@ -22,6 +23,7 @@ router.post(
 );
 
 router.get("/", getGalleryData);
+router.get("/get-all", getBothImageAndVideo);
 
 // router.get("/gallery/:type", getGalleryPageData);
 

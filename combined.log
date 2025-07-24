@@ -1,0 +1,58 @@
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T05:30:51.418Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T05:30:51.594Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T05:45:34.883Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T05:45:35.099Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T05:47:01.293Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T05:47:01.497Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T05:47:56.451Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T05:47:56.653Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T05:48:35.973Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T05:48:36.168Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T05:52:58.047Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T05:52:58.241Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T05:53:13.565Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T05:53:13.782Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T05:53:45.830Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T05:53:46.044Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T05:56:12.023Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T05:56:12.226Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T05:56:37.976Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T05:56:38.208Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T05:59:35.766Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T05:59:35.951Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T06:00:21.926Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T06:00:22.127Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T06:00:26.686Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T06:00:26.868Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T06:02:18.384Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T06:02:18.589Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T06:05:23.363Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T06:05:23.552Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T06:22:32.814Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T06:22:33.009Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T06:23:23.818Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T06:23:24.007Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T06:24:03.715Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T06:24:03.926Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T06:28:22.756Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T06:28:22.938Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:29:52.718Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:29:52.786Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:29:59.965Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:30:05.466Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:30:07.721Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:30:08.480Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:30:09.197Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:30:10.501Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:30:11.886Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:30:14.764Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:30:21.293Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:30:21.324Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:30:25.466Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:30:51.022Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:30:51.081Z"}
+{"level":"info","message":"Add New Media API hit","service":"auth-services","timestamp":"2025-07-24T06:32:54.916Z"}
+{"level":"info","message":"Add New Media API hit","service":"auth-services","timestamp":"2025-07-24T06:33:34.105Z"}
+{"level":"error","message":"❌Article Upload Failed : ValidationError: headline: Path `headline` is required.","service":"auth-services","stack":"ValidationError: Article validation failed: headline: Path `headline` is required.\n    at Document.invalidate (C:\\Users\\ADMIN\\Desktop\\Church Project\\church-news-server\\node_modules\\mongoose\\lib\\document.js:3343:32)\n    at C:\\Users\\ADMIN\\Desktop\\Church Project\\church-news-server\\node_modules\\mongoose\\lib\\document.js:3104:17\n    at C:\\Users\\ADMIN\\Desktop\\Church Project\\church-news-server\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2025-07-24T06:33:34.112Z"}
+{"level":"info","message":"Add New Media API hit","service":"auth-services","timestamp":"2025-07-24T06:33:40.194Z"}
+{"level":"info","message":"Add New Media API hit","service":"auth-services","timestamp":"2025-07-24T06:35:08.477Z"}

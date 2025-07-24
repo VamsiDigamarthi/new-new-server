@@ -68,7 +68,8 @@ export const fetchBreakingNews = async (query) => {
     ];
   }
 
-  const skip = (parseInt(page) - 1) * parseInt(limit);
+  const skip = parseInt(parseInt(page) - 1) * parseInt(limit);
+  console.log(page, limit, skip, "oage and limit");
 
   const [data, total] = await Promise.all([
     BreakingNewsTickerModel.find(filter)
