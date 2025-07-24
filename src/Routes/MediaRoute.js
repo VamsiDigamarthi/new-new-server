@@ -3,6 +3,7 @@ import {
   addNewMedia,
   getBothImageAndVideo,
   getGalleryData,
+  editMedia,
   // getGalleryPageData,
 } from "../Controller/MediaController.js";
 import { mediaSchema } from "../Validations/mediavalidation.js";
@@ -24,6 +25,16 @@ router.post(
 
 router.get("/", getGalleryData);
 router.get("/get-all", getBothImageAndVideo);
+
+router.put(
+  "/edit-media/:id",
+  upload.fields([
+    { name: "image", maxCount: 1 },
+    { name: "extraMedia", maxCount: 10 },
+  ]),
+
+  editMedia
+);
 
 // router.get("/gallery/:type", getGalleryPageData);
 

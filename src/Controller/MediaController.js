@@ -49,26 +49,42 @@ export const getGalleryData = async (req, res) => {
 
     if (newsType) query.newsType = newsType;
 
-    console.log(newsType, "-----------TYOE");
-
-    console.log(category, "-----------TYOE");
+    console.log(newsType, "-----------TYPE");
+    console.log(category, "-----------CATEGORY");
 
     if (category && category !== "null" && category !== "") {
       query.category = category;
     }
 
-    let GalleryData = ArticleModel.find(query).sort({ createdAt: -1 });
+    // Add date and time filtering logic
+    const today = new Date().toISOString().split("T")[0]; // YYYY-MM-DD format
+    const currentTime = new Date().toTimeString().split(" ")[0].substring(0, 5); // HH:MM format
+
+    // Add complex query for date/time filtering
+    query.$or = [
+      // For active articles published today
+      {
+        status: "Active",
+        publishedDate: today,
+      },
+      // For scheduled articles with date and time checks
+      {
+        status: "Scheduled",
+        date: today,
+        startTime: { $lte: currentTime },
+        endTime: { $gte: currentTime },
+      },
+    ];
+
+    let GalleryQuery = ArticleModel.find(query).sort({ createdAt: -1 });
 
     if (pageNumber && pageSize) {
       const limit = parseInt(pageSize);
       const skip = (parseInt(pageNumber) - 1) * limit;
-
-      GalleryData = GalleryData.skip(skip).limit(limit);
+      GalleryQuery = GalleryQuery.skip(skip).limit(limit);
     }
 
-    const data = await GalleryData;
-
-    // console.log(data);
+    const data = await GalleryQuery;
 
     return res.status(200).json(data);
   } catch (error) {
@@ -78,7 +94,6 @@ export const getGalleryData = async (req, res) => {
     return sendResponse(res, 500, "Get Gallery Data Failed", error);
   }
 };
-
 export const getBothImageAndVideo = async (req, res) => {
   try {
     const query = {};
@@ -132,26 +147,64 @@ export const getBothImageAndVideo = async (req, res) => {
   }
 };
 
-// export const getGalleryPageData = async (req, res) => {
-//   try {
-//     const { type } = req.params;
+export const editMedia = async (req, res) => {
+  try {
+    const { id } = req.params;
+    logger.info(`Edit Media API hit for ID: ${id}`);
 
-//     if (!type) {
-//       return res.status(400).send("Please specify type");
-//     }
+    const thumbnailImage = req.files?.image?.[0]?.path;
+    const extraFiles = req.files?.extraMedia?.map((e) => e.path) || [];
 
-//     const galleryData = await ArticleModel.find({
-//       newsType: type,
-//     }).sort({ createdAt: -1 });
+    const data = { ...req.body };
 
-//     if (!galleryData) {
-//       return res.status(404).send("No Data found");
-//     }
-//     return res.status(200).send(galleryData);
-//   } catch (error) {
-//     logger.error(`❌Get Gallery Page Data Failed : ${error}`, {
-//       stack: error.stack,
-//     });
-//     return sendResponse(res, 500, "Get Gallery Data Failed", error);
-//   }
-// };
+    console.log(req.body, req.files);
+
+    // Set default status if startTime or endTime is missing
+    if (!data.startTime || !data.endTime) {
+      data.status = "Active";
+    }
+
+    // Set default date if not provided
+    if (!data.date) {
+      data.date = new Date().toISOString().split("T")[0];
+    }
+
+    // Assign image if uploaded
+    if (thumbnailImage) {
+      data.image = thumbnailImage;
+    }
+
+    // Map extra media files to objects with url
+    if (extraFiles.length > 0) {
+      data.extraMedia = extraFiles.map((url) => ({ url }));
+    }
+
+    // Ensure author is a valid ObjectId if provided
+    if (data.author) {
+      data.author = new mongoose.Types.ObjectId(data.author);
+    }
+
+    // Set newsType from mediaType if present
+    if (data.mediaType) {
+      data.newsType = data.mediaType;
+    }
+
+    // Update the article
+    const updatedMedia = await ArticleModel.findByIdAndUpdate(
+      id,
+      { $set: data },
+      { new: true, runValidators: true }
+    );
+
+    if (!updatedMedia) {
+      return sendResponse(res, 404, "Media not found");
+    }
+
+    return sendResponse(res, 200, "Media updated successfully", updatedMedia);
+  } catch (error) {
+    logger.error(`❌ Edit Media Failed : ${error.message}`, {
+      stack: error.stack,
+    });
+    return sendResponse(res, 500, "Edit Media Failed", error.message);
+  }
+};
