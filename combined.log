@@ -1,0 +1,279 @@
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T06:31:10.830Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T06:31:11.265Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:32:55.076Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:32:55.089Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:32:55.233Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:32:55.266Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:32:55.272Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:33:15.307Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:33:16.803Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-24T06:33:34.462Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:33:34.556Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:33:38.303Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:33:39.546Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:33:42.426Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:33:43.579Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:33:59.779Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:33:59.783Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:33:59.859Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:33:59.883Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:33:59.929Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:34:04.689Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-24T06:34:19.342Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:34:19.426Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:34:21.922Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:34:22.863Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:34:31.701Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:34:31.707Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:34:31.771Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:35:36.222Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:35:36.269Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:35:36.299Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:35:49.094Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:35:50.424Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:37:38.327Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T06:41:59.258Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T06:41:59.724Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:43:01.335Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:43:01.441Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:43:17.689Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:43:17.701Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:43:17.748Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:43:27.589Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:43:27.855Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-24T06:43:42.794Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:43:42.908Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-24T06:44:09.137Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:44:09.252Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:44:22.770Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:44:22.822Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:44:22.910Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:44:22.925Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:44:22.940Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:44:24.564Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:44:24.568Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:44:24.648Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:44:24.674Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:44:24.727Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:44:25.850Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:44:25.855Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:44:25.941Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:44:25.994Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:44:25.998Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:44:46.445Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:44:46.517Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:44:51.239Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-24T06:45:04.215Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:45:04.336Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:45:10.947Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:45:10.980Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:45:11.032Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:45:15.027Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:45:15.030Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:45:15.103Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:45:15.269Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:45:15.273Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:45:20.711Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-24T06:45:37.417Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:45:37.505Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:45:43.614Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:45:43.616Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:45:43.688Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:48:13.035Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:48:13.068Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:48:13.333Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:48:13.388Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:48:13.398Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:48:15.318Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:48:15.323Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:48:15.392Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:48:15.473Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:48:15.476Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:48:24.157Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:48:25.617Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:48:26.586Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-24T06:49:59.037Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:49:59.230Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:51:50.895Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:53:00.102Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-24T06:53:11.489Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:53:11.585Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T06:56:06.010Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T06:56:06.837Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:56:45.527Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:56:45.536Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:56:45.600Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:56:45.680Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:56:45.685Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:56:49.632Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:56:49.651Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:56:49.788Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:56:49.790Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:56:49.793Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:56:51.500Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:56:51.504Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:56:51.585Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:56:51.672Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:56:51.676Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:56:54.543Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:56:54.549Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:56:54.608Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:56:54.662Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:56:54.670Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:57:00.417Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-24T06:57:12.883Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:57:12.992Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:57:15.395Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T06:57:16.300Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:57:21.460Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:57:21.480Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:57:21.527Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:57:31.992Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:57:32.048Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:57:32.122Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:57:32.128Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:57:32.175Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:57:39.336Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:57:39.342Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:57:39.401Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T06:57:39.460Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T06:57:39.463Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:00:27.575Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:00:31.981Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:00:37.737Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:00:37.743Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:00:37.808Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:00:37.856Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:00:37.902Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-24T07:00:51.615Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:00:51.689Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:00:56.445Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:00:56.450Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:00:56.521Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:01:43.598Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:01:43.601Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:01:43.680Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:01:43.759Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:01:43.763Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:01:50.278Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:01:50.281Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:01:50.373Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:01:50.415Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:01:50.433Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:01:51.925Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:01:51.928Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:01:51.991Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:01:51.996Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:01:52.055Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:01:52.892Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:01:52.895Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:01:52.958Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:01:52.999Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:01:53.029Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:02:17.402Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:02:17.425Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:02:17.512Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:02:17.515Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:02:17.524Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:02:18.827Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:02:18.831Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:02:19.392Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:02:19.476Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:02:19.481Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:02:20.851Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:02:20.900Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:02:20.978Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:02:20.991Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:02:20.997Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:02:36.420Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:02:36.425Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:02:36.478Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:02:36.545Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:02:36.558Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:04:26.285Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:04:26.329Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:04:26.424Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:04:39.971Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:04:40.125Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:04:41.792Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-24T07:04:52.726Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:04:52.836Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:04:56.948Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:04:56.951Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:04:57.103Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:05:32.565Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-24T07:05:48.499Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:05:48.611Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:05:58.440Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:05:58.828Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:06:01.029Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:06:09.956Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:06:10.006Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:06:10.051Z"}
+{"error":"Cast to Boolean failed for value \"undefined\" (type string) at path \"managerNews\" for model \"Article\"","level":"error","message":"❌ Failed to fetch web-site articles","service":"auth-services","timestamp":"2025-07-24T07:06:13.969Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:08:34.449Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:10:46.267Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:10:46.500Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:12:11.677Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:12:46.039Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:12:54.402Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:13:09.498Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:13:17.246Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:13:40.697Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:14:18.274Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:15:56.184Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:15:56.625Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:16:04.169Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:16:04.316Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:16:06.613Z"}
+{"error":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Article\"","level":"error","message":"❌ Failed to fetch articles","service":"auth-services","timestamp":"2025-07-24T07:16:06.616Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:16:06.798Z"}
+{"error":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Article\"","level":"error","message":"❌ Failed to fetch articles","service":"auth-services","timestamp":"2025-07-24T07:16:06.799Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:16:18.679Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:16:18.940Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:16:21.184Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:16:21.332Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:16:27.573Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T07:16:27.745Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:16:31.341Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:16:31.495Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T07:17:01.810Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T08:44:59.191Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T08:44:59.770Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T08:45:57.604Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T08:46:20.681Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T08:49:20.791Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T08:49:21.014Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T08:51:07.129Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T08:51:07.312Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T08:51:44.243Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T08:51:47.973Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T09:12:17.098Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T09:12:49.710Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T09:12:49.836Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T09:15:28.427Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T09:15:41.580Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T09:20:40.832Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T09:20:41.311Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T09:20:53.984Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T09:20:54.495Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T09:21:13.399Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T09:21:13.818Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T09:21:20.067Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T09:21:20.519Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T09:21:25.769Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T09:21:26.332Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T09:23:25.609Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T09:23:29.875Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T09:23:46.135Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T09:24:59.997Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T09:25:00.205Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T09:25:33.987Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T09:25:34.432Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T09:26:45.067Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T09:26:45.508Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T09:27:54.643Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T09:27:54.932Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T09:36:54.694Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T09:36:54.925Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T10:19:58.251Z"}
