@@ -16,7 +16,7 @@ export const getArticlesService = async (queryParams) => {
     endDate,
     subCategory,
   } = queryParams;
-
+  console.log("-----", queryParams);
   const query = {};
 
   // 🔍 Search

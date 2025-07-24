@@ -83,9 +83,10 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
       pageNumber,
       pageSize,
       subType,
-
       managerNews = false,
     } = req.query;
+
+    console.log(req.query, "-------");
 
     const query = { managerNews };
 
@@ -112,8 +113,11 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
     const currentDate = currentIST.toISOString().split("T")[0]; // e.g., 2025-07-24
     const currentTime = currentIST.toISOString().split("T")[1].slice(0, 8); // e.g., 09:40:00
 
+    console.log("currentDate", currentDate);
+    console.log("currentTime", currentTime);
+
     // Filter for past data only
-    query.publishedDate = { $lte: currentDate };
+    // query.publishedDate = { $lte: currentDate };
     query.$or = [
       { publishedDate: { $lt: currentDate } }, // Past dates
       { publishedDate: currentDate, publishedTime: { $lte: currentTime } }, // Today, past or current time
@@ -130,6 +134,7 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
     }
 
     const articles = await articlesQuery;
+    console.log("articles", articles);
 
     return res.status(200).json(articles);
   } catch (error) {
