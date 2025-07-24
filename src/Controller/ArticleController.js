@@ -315,3 +315,20 @@ export const getFutureArticles = async (req, res) => {
     });
   }
 };
+
+export const incrementViewCount = async (req, res) => {
+  const { id } = req.params;
+  console.log("id", id);
+
+  try {
+    const article = await ArticleModel.findByIdAndUpdate(
+      id,
+      { $inc: { views: 1 } }, // increment view by 1
+      { new: true }
+    );
+    if (!article) return res.status(404).json({ message: "Article not found" });
+    res.status(200).json(article);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};

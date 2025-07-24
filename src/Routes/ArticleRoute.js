@@ -10,6 +10,7 @@ import {
   getFutureArticles,
   getSingleArticlesController,
   getTopNewsByCategory,
+  incrementViewCount,
   updateArticle,
 } from "../Controller/ArticleController.js";
 import { handleMulterUpload } from "../Middlewares/handleMulterUpload.js";
@@ -37,5 +38,6 @@ router.patch(
 );
 router.get("/future-articles", getFutureArticles);
 
+router.patch("/views/:id", incrementViewCount);
 
 export default router;
