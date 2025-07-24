@@ -15,7 +15,7 @@ export const createArticleController = async (req, res) => {
       ...req.body,
       image: req.file?.path || null,
     };
-    // console.log("articleData", articleData);
+    console.log("articleData", articleData);
 
     await createArticleService(articleData);
 
@@ -101,6 +101,8 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
       query.category = category;
     }
     if (subCategory) query.subCategory = subCategory;
+    if (page) query.page = page;
+
     if (subType) query.subType = subType;
 
     // Get current IST time
