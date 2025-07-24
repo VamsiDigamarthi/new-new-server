@@ -1,0 +1,713 @@
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T03:21:21.666Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T03:21:21.868Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=&subCategory=","service":"auth-services","timestamp":"2025-07-24T03:22:53.070Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:22:53.072Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:22:53.074Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:22:53.103Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:22:53.104Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:22:53.155Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:22:53.156Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=&subCategory=","service":"auth-services","timestamp":"2025-07-24T03:22:53.196Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:22:53.199Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:22:53.201Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=politics&status=&startDate=&endDate=&subCategory=","service":"auth-services","timestamp":"2025-07-24T03:23:09.129Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:09.130Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:23:09.131Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=tech&status=&startDate=&endDate=&subCategory=","service":"auth-services","timestamp":"2025-07-24T03:23:11.692Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:11.695Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:23:11.697Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=career&status=&startDate=&endDate=&subCategory=","service":"auth-services","timestamp":"2025-07-24T03:23:12.632Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:12.632Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:23:12.633Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=cinema&status=&startDate=&endDate=&subCategory=","service":"auth-services","timestamp":"2025-07-24T03:23:13.952Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:13.953Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:23:13.953Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=business&status=&startDate=&endDate=&subCategory=","service":"auth-services","timestamp":"2025-07-24T03:23:14.845Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:14.845Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:23:14.846Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=sports&status=&startDate=&endDate=&subCategory=","service":"auth-services","timestamp":"2025-07-24T03:23:15.591Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:15.592Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:23:15.593Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=health&status=&startDate=&endDate=&subCategory=","service":"auth-services","timestamp":"2025-07-24T03:23:16.733Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:16.737Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:23:16.738Z"}
+{"level":"info","message":"Received GET request to /web-settings/","service":"auth-services","timestamp":"2025-07-24T03:23:18.232Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.233Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:53&adSlot=Top%20Banner&tagetPage=Home&page=1","service":"auth-services","timestamp":"2025-07-24T03:23:18.245Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.245Z"}
+{"level":"info","message":"Received GET request to /breaking-new?currentDate=2025-07-24T08:53&category=politics","service":"auth-services","timestamp":"2025-07-24T03:23:18.256Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.259Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=home&publishedDate=&subCategory=Top%20Stories&pageNumber=1&pageSize=15&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:18.272Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.272Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=home&publishedDate=&subCategory=Top%20News&pageNumber=1&pageSize=8&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:18.279Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.281Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=cinema&publishedDate=&subCategory=Latest%20News&pageNumber=1&pageSize=15&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:18.291Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.292Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=cinema&publishedDate=&subCategory=Top%20Stories&pageNumber=1&pageSize=2&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:18.311Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.313Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:53&adSlot=Middle&tagetPage=Only%20Home%20Page&page=1","service":"auth-services","timestamp":"2025-07-24T03:23:18.318Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.319Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=health&publishedDate=&subCategory=Latest%20News&pageNumber=1&pageSize=3&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:18.323Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.323Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:53&adSlot=Article%20Sidebar&tagetPage=Only%20Category%20Page&page=1","service":"auth-services","timestamp":"2025-07-24T03:23:18.334Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.335Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=sports&publishedDate=&subCategory=Top%20News&pageNumber=1&pageSize=8&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:18.347Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.348Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=business&publishedDate=&subCategory=Top%20News&pageNumber=1&pageSize=8&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:18.360Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.361Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=family&publishedDate=&subCategory=Top%20News&pageNumber=1&pageSize=8&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:18.380Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.381Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:53&adSlot=Middle&tagetPage=Only%20Home%20Page&page=2","service":"auth-services","timestamp":"2025-07-24T03:23:18.385Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.385Z"}
+{"level":"info","message":"Received GET request to /media?newsType=imagegallery&pageNumber=1&pageSize=4&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:18.395Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.396Z"}
+{"level":"info","message":"Received GET request to /media?newsType=videogallery&pageNumber=1&pageSize=4&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:18.405Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.405Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:53&adSlot=Article%20Sidebar&tagetPage=Only%20Home%20Page&page=2","service":"auth-services","timestamp":"2025-07-24T03:23:18.414Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.415Z"}
+{"level":"info","message":"Received GET request to /article/all-type","service":"auth-services","timestamp":"2025-07-24T03:23:18.433Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.434Z"}
+{"level":"info","message":"Received GET request to /web-settings/","service":"auth-services","timestamp":"2025-07-24T03:23:18.439Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.440Z"}
+{"level":"info","message":"Received GET request to /media?newsType=videogallery&pageNumber=1&pageSize=4&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:18.451Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.452Z"}
+{"level":"info","message":"Received GET request to /uploads/1753287133738-882860034.jpeg","service":"auth-services","timestamp":"2025-07-24T03:23:18.472Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:18.473Z"}
+{"level":"info","message":"Received GET request to /uploads/1753286384883-588695836.jpeg","service":"auth-services","timestamp":"2025-07-24T03:23:20.046Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:20.046Z"}
+{"level":"info","message":"Received GET request to /uploads/1753275622333-461711648.jpeg","service":"auth-services","timestamp":"2025-07-24T03:23:20.054Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:20.055Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=family&status=&startDate=&endDate=&subCategory=","service":"auth-services","timestamp":"2025-07-24T03:23:20.289Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:20.289Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:23:20.290Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=news&status=&startDate=&endDate=&subCategory=","service":"auth-services","timestamp":"2025-07-24T03:23:21.391Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:21.391Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:23:21.392Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=&publishedDate=&subCategory=Editor%20Choice&pageNumber=1&pageSize=4&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:40.097Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:40.098Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:53&adSlot=Article%20Sidebar&tagetPage=&page=1","service":"auth-services","timestamp":"2025-07-24T03:23:40.102Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:40.103Z"}
+{"level":"info","message":"Received GET request to /article/sports/68812fda06a00435f0a3bb3d","service":"auth-services","timestamp":"2025-07-24T03:23:40.106Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:40.107Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:23:40.108Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:53&adSlot=Article%20Sidebar&tagetPage=&page=1","service":"auth-services","timestamp":"2025-07-24T03:23:40.111Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:40.111Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=&publishedDate=&subCategory=Editor%20Choice&pageNumber=1&pageSize=4&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:40.128Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:40.129Z"}
+{"level":"info","message":"Received GET request to /article/sports/68812fda06a00435f0a3bb3d","service":"auth-services","timestamp":"2025-07-24T03:23:40.161Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:40.161Z"}
+{"level":"info","message":"📄 Get Single Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:23:40.162Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=sports&publishedDate=&subCategory=Top%20Stories&pageNumber=1&pageSize=10&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:40.174Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:40.174Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:53&adSlot=Middle&tagetPage=Home&page=1","service":"auth-services","timestamp":"2025-07-24T03:23:40.177Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:40.177Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=sports&publishedDate=&subCategory=Latest%20News&pageNumber=1&pageSize=15&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:40.180Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:40.180Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=sports&publishedDate=&subCategory=Top%20Stories&pageNumber=1&pageSize=10&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:40.202Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:40.202Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=sports&publishedDate=&subCategory=Latest%20News&pageNumber=1&pageSize=15&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:23:40.216Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:40.217Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:53&adSlot=Middle&tagetPage=Home&page=1","service":"auth-services","timestamp":"2025-07-24T03:23:40.258Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:23:40.259Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:54&adSlot=Top%20Banner&tagetPage=politics&page=1","service":"auth-services","timestamp":"2025-07-24T03:24:06.427Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.428Z"}
+{"level":"info","message":"Received GET request to /breaking-new?currentDate=2025-07-24T08:54&category=politics","service":"auth-services","timestamp":"2025-07-24T03:24:06.434Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.434Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=politics&publishedDate=&subCategory=Top%20Stories&pageNumber=1&pageSize=4&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:24:06.439Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.439Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=politics&publishedDate=&subCategory=Top%20News&pageNumber=1&pageSize=10&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:24:06.442Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.442Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=politics&publishedDate=&subCategory=Editor%20Choice&pageNumber=1&pageSize=4&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:24:06.446Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.447Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:54&adSlot=Article%20Sidebar&tagetPage=politics&page=1","service":"auth-services","timestamp":"2025-07-24T03:24:06.451Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.452Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=politics&publishedDate=&subCategory=Top%20News&pageNumber=2&pageSize=10&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:24:06.457Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.458Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=politics&publishedDate=&subCategory=Latest%20News&pageNumber=1&pageSize=15&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:24:06.479Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.480Z"}
+{"level":"info","message":"Received GET request to /article/sub-type?page=politics&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-24T03:24:06.491Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.492Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T03:24:06.510Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=politics&publishedDate=&subCategory=&pageNumber=1&pageSize=2&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:24:06.524Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.527Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:54&adSlot=Middle&tagetPage=politics&page=1","service":"auth-services","timestamp":"2025-07-24T03:24:06.533Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.533Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:54&adSlot=Top%20Banner&tagetPage=politics&page=1","service":"auth-services","timestamp":"2025-07-24T03:24:06.536Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.537Z"}
+{"level":"info","message":"Received GET request to /breaking-new?currentDate=2025-07-24T08:54&category=politics","service":"auth-services","timestamp":"2025-07-24T03:24:06.546Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.547Z"}
+{"level":"info","message":"Received GET request to /uploads/1753287396301-51341537.jpeg","service":"auth-services","timestamp":"2025-07-24T03:24:06.555Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.556Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=politics&publishedDate=&subCategory=Top%20Stories&pageNumber=1&pageSize=4&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:24:06.561Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.562Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=politics&publishedDate=&subCategory=Top%20News&pageNumber=1&pageSize=10&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:24:06.568Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.569Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=politics&publishedDate=&subCategory=Editor%20Choice&pageNumber=1&pageSize=4&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:24:06.575Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.575Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:54&adSlot=Article%20Sidebar&tagetPage=politics&page=1","service":"auth-services","timestamp":"2025-07-24T03:24:06.578Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.579Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=politics&publishedDate=&subCategory=Top%20News&pageNumber=2&pageSize=10&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:24:06.627Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.627Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=politics&publishedDate=&subCategory=Latest%20News&pageNumber=1&pageSize=15&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:24:06.630Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.630Z"}
+{"level":"info","message":"Received GET request to /article/sub-type?page=politics&startDate=&endDate=","service":"auth-services","timestamp":"2025-07-24T03:24:06.632Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.632Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-24T03:24:06.633Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=politics&publishedDate=&subCategory=&pageNumber=1&pageSize=2&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:24:06.635Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.635Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=politics&publishedDate=&subCategory=&pageNumber=1&pageSize=2&subType=undefined&category=null","service":"auth-services","timestamp":"2025-07-24T03:24:06.637Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.637Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:54&adSlot=Middle&tagetPage=politics&page=1","service":"auth-services","timestamp":"2025-07-24T03:24:06.640Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.680Z"}
+{"level":"info","message":"Received GET request to /uploads/1753287508781-935060096.jpeg","service":"auth-services","timestamp":"2025-07-24T03:24:06.732Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:06.733Z"}
+{"level":"info","message":"Received GET request to /ads?page=1&limit=10&heading=&tagetPage=Home&status=undefined&adSlot=&endDateAndTime=&startDateAndTime=","service":"auth-services","timestamp":"2025-07-24T03:24:51.119Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:51.119Z"}
+{"level":"info","message":"Received GET request to /ads?page=1&limit=10&heading=&tagetPage=Home&status=undefined&adSlot=&endDateAndTime=&startDateAndTime=","service":"auth-services","timestamp":"2025-07-24T03:24:51.161Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:51.162Z"}
+{"level":"info","message":"Received GET request to /uploads/1753287133738-882860034.jpeg","service":"auth-services","timestamp":"2025-07-24T03:24:51.183Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:51.183Z"}
+{"level":"info","message":"Received GET request to /uploads/1753274195715-976418948.jpeg","service":"auth-services","timestamp":"2025-07-24T03:24:51.185Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:24:51.186Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=&subCategory=","service":"auth-services","timestamp":"2025-07-24T03:25:07.209Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:25:07.210Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:25:07.210Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=&subCategory=","service":"auth-services","timestamp":"2025-07-24T03:25:07.270Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:25:07.271Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:25:07.272Z"}
+{"level":"info","message":"Received DELETE request to /article/688104385a86eb3a360b9960","service":"auth-services","timestamp":"2025-07-24T03:25:17.563Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:25:17.564Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=&subCategory=","service":"auth-services","timestamp":"2025-07-24T03:25:17.571Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:25:17.571Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:25:17.572Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Homepage%20Top%20Banner&tagetPage=&page=1","service":"auth-services","timestamp":"2025-07-24T03:26:00.873Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.874Z"}
+{"level":"info","message":"Received GET request to /breaking-new?currentDate=2025-07-24T08:56&category=news","service":"auth-services","timestamp":"2025-07-24T03:26:00.877Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.878Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Latest%20News&pageNumber=1&pageSize=15&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:00.888Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.889Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Top%20Stories&pageNumber=1&pageSize=2&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:00.893Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.894Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Top%20News&pageNumber=1&pageSize=10&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:00.899Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.899Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Latest%20News&pageNumber=1&pageSize=3&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:00.905Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.906Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Middle&tagetPage=&page=1","service":"auth-services","timestamp":"2025-07-24T03:26:00.911Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.912Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Article%20Sidebar&tagetPage=Only%20Category%20Page&page=1","service":"auth-services","timestamp":"2025-07-24T03:26:00.923Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.923Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Top%20News&pageNumber=2&pageSize=10&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:00.928Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.929Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Editor%20Choice&pageNumber=1&pageSize=4&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:00.933Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.934Z"}
+{"level":"info","message":"Received GET request to /media?newsType=videogallery&pageNumber=1&pageSize=4&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:00.940Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.941Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Article%20Sidebar&tagetPage=Only%20Home%20Page&page=2","service":"auth-services","timestamp":"2025-07-24T03:26:00.946Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.946Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Homepage%20Top%20Banner&tagetPage=&page=1","service":"auth-services","timestamp":"2025-07-24T03:26:00.959Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.960Z"}
+{"level":"info","message":"Received GET request to /breaking-new?currentDate=2025-07-24T08:56&category=news","service":"auth-services","timestamp":"2025-07-24T03:26:00.963Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.964Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Top%20News&pageNumber=1&pageSize=10&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:00.975Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.977Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Latest%20News&pageNumber=1&pageSize=15&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:00.988Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.988Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Top%20Stories&pageNumber=1&pageSize=2&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:00.992Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.992Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Middle&tagetPage=&page=1","service":"auth-services","timestamp":"2025-07-24T03:26:00.996Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:00.998Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Latest%20News&pageNumber=1&pageSize=3&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:01.011Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:01.011Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Top%20News&pageNumber=2&pageSize=10&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:01.015Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:01.017Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Editor%20Choice&pageNumber=1&pageSize=4&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:01.021Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:01.022Z"}
+{"level":"info","message":"Received GET request to /media?newsType=videogallery&pageNumber=1&pageSize=4&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:01.027Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:01.027Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Article%20Sidebar&tagetPage=Only%20Category%20Page&page=1","service":"auth-services","timestamp":"2025-07-24T03:26:01.033Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:01.034Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Article%20Sidebar&tagetPage=Only%20Home%20Page&page=2","service":"auth-services","timestamp":"2025-07-24T03:26:01.038Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:01.038Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Homepage%20Top%20Banner&tagetPage=Only%20Category%20Page&page=1","service":"auth-services","timestamp":"2025-07-24T03:26:01.053Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:01.054Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Middle&tagetPage=Only%20Category%20Page&page=1","service":"auth-services","timestamp":"2025-07-24T03:26:01.057Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:01.057Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Article%20Sidebar&tagetPage=Only%20Category%20Page&page=1","service":"auth-services","timestamp":"2025-07-24T03:26:01.092Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:01.093Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Article%20Sidebar&tagetPage=Only%20Category%20Page&page=1","service":"auth-services","timestamp":"2025-07-24T03:26:01.143Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:01.144Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=news&status=&startDate=&endDate=&subCategory=Top%20Stories","service":"auth-services","timestamp":"2025-07-24T03:26:04.960Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:04.961Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:26:04.961Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=news&status=&startDate=&endDate=&subCategory=Top%20Stories","service":"auth-services","timestamp":"2025-07-24T03:26:04.989Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:04.989Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:26:04.990Z"}
+{"level":"info","message":"Received POST request to /article","service":"auth-services","timestamp":"2025-07-24T03:26:39.719Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:39.720Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-24T03:26:39.740Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=news&status=&startDate=&endDate=&subCategory=","service":"auth-services","timestamp":"2025-07-24T03:26:39.798Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:39.798Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:26:39.799Z"}
+{"level":"info","message":"Received GET request to /web-settings/","service":"auth-services","timestamp":"2025-07-24T03:26:45.040Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.041Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Homepage%20Top%20Banner&tagetPage=&page=1","service":"auth-services","timestamp":"2025-07-24T03:26:45.045Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.053Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Top%20News&pageNumber=1&pageSize=10&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:45.056Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.058Z"}
+{"level":"info","message":"Received GET request to /breaking-new?currentDate=2025-07-24T08:56&category=news","service":"auth-services","timestamp":"2025-07-24T03:26:45.066Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.067Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Latest%20News&pageNumber=1&pageSize=15&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:45.073Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.074Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Top%20Stories&pageNumber=1&pageSize=2&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:45.076Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.077Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Middle&tagetPage=&page=1","service":"auth-services","timestamp":"2025-07-24T03:26:45.084Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.085Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Latest%20News&pageNumber=1&pageSize=3&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:45.088Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.090Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Article%20Sidebar&tagetPage=Only%20Category%20Page&page=1","service":"auth-services","timestamp":"2025-07-24T03:26:45.092Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.093Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Top%20News&pageNumber=2&pageSize=10&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:45.102Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.103Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Editor%20Choice&pageNumber=1&pageSize=4&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:45.106Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.107Z"}
+{"level":"info","message":"Received GET request to /media?newsType=videogallery&pageNumber=1&pageSize=4&category=null","service":"auth-services","timestamp":"2025-07-24T03:26:45.113Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.114Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Article%20Sidebar&tagetPage=Only%20Home%20Page&page=2","service":"auth-services","timestamp":"2025-07-24T03:26:45.126Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.127Z"}
+{"level":"info","message":"Received GET request to /web-settings/","service":"auth-services","timestamp":"2025-07-24T03:26:45.131Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.132Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Homepage%20Top%20Banner&tagetPage=Only%20Category%20Page&page=1","service":"auth-services","timestamp":"2025-07-24T03:26:45.139Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.142Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Middle&tagetPage=Only%20Category%20Page&page=1","service":"auth-services","timestamp":"2025-07-24T03:26:45.148Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.149Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T08:56&adSlot=Article%20Sidebar&tagetPage=Only%20Category%20Page&page=1","service":"auth-services","timestamp":"2025-07-24T03:26:45.172Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:26:45.172Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=news&status=&startDate=2025-07-23&endDate=&subCategory=Top%20Stories","service":"auth-services","timestamp":"2025-07-24T03:29:51.568Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:29:51.569Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:29:51.569Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=news&status=&startDate=2025-07-23&endDate=2025-07-25&subCategory=Top%20Stories","service":"auth-services","timestamp":"2025-07-24T03:29:54.263Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:29:54.263Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T03:29:54.264Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:35:36.851Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:35:36.852Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:35:36.885Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:35:36.886Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:39:43.805Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:39:43.806Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:39:43.840Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:39:43.841Z"}
+{"level":"info","message":"Received GET request to /breaking-new/","service":"auth-services","timestamp":"2025-07-24T03:40:02.806Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:40:02.807Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:40:02.823Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:40:02.823Z"}
+{"level":"info","message":"Received GET request to /breaking-new/","service":"auth-services","timestamp":"2025-07-24T03:40:02.856Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:40:02.857Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:40:02.861Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:40:02.862Z"}
+{"level":"info","message":"Received GET request to /breaking-new/","service":"auth-services","timestamp":"2025-07-24T03:40:19.868Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:40:19.869Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:40:19.888Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:40:19.901Z"}
+{"level":"info","message":"Received GET request to /breaking-new/","service":"auth-services","timestamp":"2025-07-24T03:40:19.921Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:40:19.922Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:40:19.945Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:40:19.946Z"}
+{"level":"info","message":"Received GET request to /breaking-new/","service":"auth-services","timestamp":"2025-07-24T03:40:42.838Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:40:42.845Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:40:42.863Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:40:42.867Z"}
+{"level":"info","message":"Received GET request to /breaking-new/","service":"auth-services","timestamp":"2025-07-24T03:40:42.901Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:40:42.902Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:40:42.910Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:40:42.910Z"}
+{"level":"info","message":"Received GET request to /breaking-new/","service":"auth-services","timestamp":"2025-07-24T03:40:45.044Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:40:45.044Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:40:45.049Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:40:45.050Z"}
+{"level":"info","message":"Received GET request to /breaking-new/","service":"auth-services","timestamp":"2025-07-24T03:40:45.093Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:40:45.093Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:40:45.098Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:40:45.098Z"}
+{"level":"info","message":"Received GET request to /breaking-new/","service":"auth-services","timestamp":"2025-07-24T03:41:39.841Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:41:39.842Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:41:39.850Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:41:39.851Z"}
+{"level":"info","message":"Received GET request to /breaking-new/","service":"auth-services","timestamp":"2025-07-24T03:41:39.877Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:41:39.878Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:41:39.886Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:41:39.887Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:42:33.838Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:42:33.839Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:42:33.850Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:42:33.851Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:42:33.886Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:42:33.888Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:42:33.898Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:42:33.899Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:42:35.982Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:42:35.982Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:42:35.987Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:42:35.987Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:42:36.018Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:42:36.019Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:42:36.023Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:42:36.023Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:42:49.826Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:42:49.826Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:42:49.832Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:42:49.833Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:42:49.864Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:42:49.865Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:42:49.868Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:42:49.869Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:42:53.431Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:42:53.431Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:42:53.437Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:42:53.438Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:42:53.468Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:42:53.470Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:42:53.475Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:42:53.475Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:43:24.828Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:24.829Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:43:24.835Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:24.836Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:43:24.865Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:24.865Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:43:24.869Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:24.870Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:43:33.840Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:33.841Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:43:33.848Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:33.849Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:43:33.875Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:33.875Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:43:33.881Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:33.881Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:43:40.814Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:40.815Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:43:40.822Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:40.822Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:43:40.849Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:40.850Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:43:40.854Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:40.855Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:43:49.673Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:49.674Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:43:49.684Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:49.686Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:43:49.712Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:49.714Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:43:49.725Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:49.726Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:43:51.564Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:51.565Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:43:51.570Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:51.571Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:43:51.599Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:51.600Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:43:51.606Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:43:51.606Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:44:12.844Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:44:12.845Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:44:12.852Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:44:12.853Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:44:12.876Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:44:12.877Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:44:12.884Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:44:12.885Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:46:27.801Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:46:27.802Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:46:27.807Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:46:27.807Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:46:27.835Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:46:27.835Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:46:27.839Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:46:27.840Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:47:01.485Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:47:01.486Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:47:01.495Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:47:01.496Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:47:01.520Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:47:01.521Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:47:01.532Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:47:01.532Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:50:03.811Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:50:03.812Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:50:03.820Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:50:03.820Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:50:03.886Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:50:03.886Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:50:03.890Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:50:03.891Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:50:13.804Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:50:13.804Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:50:21.193Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:50:21.194Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:50:21.202Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:50:21.203Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:50:21.235Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:50:21.236Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:50:21.242Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:50:21.242Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:50:27.088Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:50:27.090Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:50:27.102Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:50:27.103Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:50:27.126Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:50:27.127Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:50:27.133Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:50:27.134Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:50:38.077Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:50:38.078Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:50:38.107Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:50:38.108Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:51:06.173Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:51:06.174Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:51:06.201Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:51:06.202Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:51:14.784Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:51:14.785Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:51:14.795Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:51:14.795Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:51:14.817Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:51:14.817Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T03:51:14.826Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:51:14.828Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T03:52:19.792Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:52:19.793Z"}
+{"level":"info","message":"Received POST request to /breaking-new","service":"auth-services","timestamp":"2025-07-24T03:53:52.553Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T03:53:52.553Z"}
+{"level":"info","message":"BREAKING NEWS API hit ","service":"auth-services","timestamp":"2025-07-24T03:53:52.565Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:06:27.259Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:06:27.260Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:06:27.295Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:06:27.296Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:06:51.902Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:06:51.902Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:06:51.935Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:06:51.936Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:07:58.264Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:07:58.268Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:07:58.277Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:07:58.277Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:07:58.309Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:07:58.310Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:07:58.313Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:07:58.313Z"}
+{"level":"info","message":"Received POST request to /breaking-new","service":"auth-services","timestamp":"2025-07-24T04:08:19.679Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:08:19.679Z"}
+{"level":"info","message":"BREAKING NEWS API hit ","service":"auth-services","timestamp":"2025-07-24T04:08:19.684Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:08:19.721Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:08:19.721Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:08:22.030Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:08:22.033Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:08:22.042Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:08:22.043Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:08:22.073Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:08:22.074Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:08:22.077Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:08:22.077Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:13:17.870Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:13:17.871Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:13:17.880Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:13:17.881Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:13:17.910Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:13:17.922Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:13:17.928Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:13:17.929Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:13:53.823Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:13:53.823Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:13:53.831Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:13:53.832Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:13:53.855Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:13:53.855Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:13:53.864Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:13:53.865Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:14:08.846Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:14:08.847Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:15:29.808Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:15:29.809Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:15:29.819Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:15:29.819Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:15:29.851Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:15:29.851Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:15:29.862Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:15:29.863Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:16:12.682Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:16:12.683Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:16:12.692Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:16:12.692Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:16:12.716Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:16:12.717Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:16:12.727Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:16:12.728Z"}
+{"level":"info","message":"Received POST request to /breaking-new","service":"auth-services","timestamp":"2025-07-24T04:17:07.713Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:07.714Z"}
+{"level":"info","message":"BREAKING NEWS API hit ","service":"auth-services","timestamp":"2025-07-24T04:17:07.755Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:17:07.793Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:07.794Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:17:10.504Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:10.504Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:17:10.511Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:10.512Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:17:10.542Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:10.542Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:17:10.559Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:10.560Z"}
+{"level":"info","message":"Received POST request to /breaking-new","service":"auth-services","timestamp":"2025-07-24T04:17:28.068Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:28.068Z"}
+{"level":"info","message":"BREAKING NEWS API hit ","service":"auth-services","timestamp":"2025-07-24T04:17:28.074Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:17:28.109Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:28.109Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:17:29.164Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:29.167Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:17:29.175Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:29.175Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:17:29.204Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:29.205Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:17:29.229Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:29.230Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=&subCategory=Top%20Stories","service":"auth-services","timestamp":"2025-07-24T04:17:44.643Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:44.644Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T04:17:44.645Z"}
+{"level":"info","message":"Received GET request to /article?page=1&limit=10&category=home&status=&startDate=&endDate=&subCategory=Top%20Stories","service":"auth-services","timestamp":"2025-07-24T04:17:44.732Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:44.734Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-24T04:17:44.734Z"}
+{"level":"info","message":"Received GET request to /web-settings/","service":"auth-services","timestamp":"2025-07-24T04:17:54.041Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.043Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T09:47&adSlot=Homepage%20Top%20Banner&tagetPage=&page=1","service":"auth-services","timestamp":"2025-07-24T04:17:54.052Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.052Z"}
+{"level":"info","message":"Received GET request to /breaking-new?currentDate=2025-07-24T09:47&category=news","service":"auth-services","timestamp":"2025-07-24T04:17:54.056Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.057Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Top%20News&pageNumber=1&pageSize=10&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T04:17:54.062Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.062Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Latest%20News&pageNumber=1&pageSize=15&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T04:17:54.070Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.072Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T09:47&adSlot=Middle&tagetPage=&page=1","service":"auth-services","timestamp":"2025-07-24T04:17:54.074Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.075Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Top%20Stories&pageNumber=1&pageSize=2&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T04:17:54.076Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.077Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T09:47&adSlot=Article%20Sidebar&tagetPage=Only%20Category%20Page&page=1","service":"auth-services","timestamp":"2025-07-24T04:17:54.089Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.090Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Latest%20News&pageNumber=1&pageSize=3&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T04:17:54.095Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.096Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Top%20News&pageNumber=2&pageSize=10&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T04:17:54.101Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.101Z"}
+{"level":"info","message":"Received GET request to /article/new-web?page=news&publishedDate=&subCategory=Editor%20Choice&pageNumber=1&pageSize=4&subType=&category=null","service":"auth-services","timestamp":"2025-07-24T04:17:54.106Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.107Z"}
+{"level":"info","message":"Received GET request to /media?newsType=videogallery&pageNumber=1&pageSize=4&category=null","service":"auth-services","timestamp":"2025-07-24T04:17:54.110Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.110Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T09:47&adSlot=Article%20Sidebar&tagetPage=Only%20Home%20Page&page=2","service":"auth-services","timestamp":"2025-07-24T04:17:54.114Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.115Z"}
+{"level":"info","message":"Received GET request to /web-settings/","service":"auth-services","timestamp":"2025-07-24T04:17:54.124Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.124Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T09:47&adSlot=Homepage%20Top%20Banner&tagetPage=Only%20Category%20Page&page=1","service":"auth-services","timestamp":"2025-07-24T04:17:54.135Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.135Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T09:47&adSlot=Middle&tagetPage=Only%20Category%20Page&page=1","service":"auth-services","timestamp":"2025-07-24T04:17:54.138Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.139Z"}
+{"level":"info","message":"Received GET request to /ads/filter?currentDate=2025-07-24T09:47&adSlot=Article%20Sidebar&tagetPage=Only%20Category%20Page&page=1","service":"auth-services","timestamp":"2025-07-24T04:17:54.148Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.149Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:17:54.475Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.475Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:17:54.528Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:17:54.528Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:18:31.836Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:18:31.837Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:22:44.547Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:22:44.547Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:22:44.553Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:22:44.554Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:22:44.584Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:22:44.585Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:22:44.605Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:22:44.605Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:23:07.829Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:23:07.830Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:23:07.837Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:23:07.838Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:23:07.868Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:23:07.869Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:23:07.887Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:23:07.887Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:24:16.828Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:24:16.831Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:24:16.845Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:24:16.853Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:24:16.890Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:24:16.891Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:24:16.904Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:24:16.904Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:28:35.458Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:28:35.460Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:28:35.471Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:28:35.473Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:28:35.508Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:28:35.512Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:28:35.523Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:28:35.523Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:31:27.839Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:31:27.840Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:31:27.848Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:31:27.849Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:31:27.908Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:31:27.940Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:31:27.960Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:31:27.961Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:31:31.508Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:31:31.508Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:31:31.513Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:31:31.513Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:31:31.541Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:31:31.542Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:31:31.562Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:31:31.563Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:32:39.113Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:32:39.113Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:32:39.119Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:32:39.120Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:32:39.150Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:32:39.150Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:32:39.168Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:32:39.168Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:33:37.551Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:33:37.551Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:33:37.560Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:33:37.561Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:33:37.590Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:33:37.591Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:33:37.606Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:33:37.606Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:34:32.758Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:34:32.759Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:34:32.766Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:34:32.767Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:34:32.798Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:34:32.799Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:34:32.815Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:34:32.816Z"}
+{"level":"info","message":"Received POST request to /breaking-new","service":"auth-services","timestamp":"2025-07-24T04:35:25.317Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:35:25.318Z"}
+{"level":"info","message":"BREAKING NEWS API hit ","service":"auth-services","timestamp":"2025-07-24T04:35:25.346Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:35:25.384Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:35:25.385Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:35:27.279Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:35:27.280Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:35:27.292Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:35:27.293Z"}
+{"level":"info","message":"Received GET request to /breaking-new?page=1&limit=10","service":"auth-services","timestamp":"2025-07-24T04:35:27.317Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:35:27.317Z"}
+{"level":"info","message":"Received GET request to /auth/profile","service":"auth-services","timestamp":"2025-07-24T04:35:27.325Z"}
+{"level":"info","message":"Request body, undefined","service":"auth-services","timestamp":"2025-07-24T04:35:27.326Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T04:36:46.809Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T04:36:47.007Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T04:37:22.574Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T04:37:22.761Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T04:37:37.628Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T04:37:37.807Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T04:38:01.416Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T04:38:01.622Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T04:38:16.008Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T04:38:16.202Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-24T04:38:31.381Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-24T04:38:31.568Z"}

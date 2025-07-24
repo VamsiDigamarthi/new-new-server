@@ -1,3 +1,4 @@
+import ArticleModel from "../Modals/ArticleModel.js";
 import {
   createBreakingNewsService,
   fetchBreakingNews,
@@ -58,6 +59,27 @@ export const changeTickerSetting = async (req, res) => {
       null,
       { updatedSettings }
     );
+  } catch (error) {
+    logger.error(`❌Ticker Settings Update Failed : ${error}`, {
+      stack: error.stack,
+    });
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
+export const editBreakingNews = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const updated = await ArticleModel.findByIdAndUpdate(id, {
+      $set: req.body,
+    });
+
+    if (!updated) {
+      return res.status(404).send({ message: "Not Found" });
+    }
+
+    return res.status(200).send({ message: "Updated Success" });
   } catch (error) {
     logger.error(`❌Ticker Settings Update Failed : ${error}`, {
       stack: error.stack,
