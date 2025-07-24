@@ -10,7 +10,24 @@ export const createBreakingNewsController = async (req, res) => {
   logger.info(`BREAKING NEWS API hit `);
 
   try {
-    await createBreakingNewsService(req.body);
+    const data = { ...req.body };
+
+    if (req.file) {
+      data.image = req.file?.path;
+    }
+
+    if (!data.startTime || !data.endTime) {
+      data.setActiveImmediately = true;
+      data.status = "Active";
+    }
+
+    if (!data.date) {
+      data.date = new Date().toISOString().split("T")[0];
+    }
+
+    console.log(req.file);
+
+    await createBreakingNewsService(data);
     return sendResponse(res, 201, "Breaking news created successfully");
   } catch (error) {
     logger.error(`❌Article Upload Failed : ${error}`, {

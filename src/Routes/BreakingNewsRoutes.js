@@ -9,10 +9,11 @@ import {
   createBreakingNewsController,
   getBreakingNews,
 } from "../Controller/BreakingNewsController.js";
+import upload from "../Middlewares/fileUpload.js";
 
 const router = express.Router();
 
-router.post("/", validate(breakingNewsSchema), createBreakingNewsController);
+router.post("/", upload.single("image"), createBreakingNewsController);
 router.get("/", getBreakingNews);
 
 router.put(

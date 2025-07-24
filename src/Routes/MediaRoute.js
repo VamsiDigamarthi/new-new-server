@@ -13,7 +13,7 @@ const router = Router();
 
 router.post(
   "/new-media",
-  validate(mediaSchema),
+  // validate(mediaSchema),
   upload.fields([
     { name: "image", maxCount: 1 },
     { name: "extraMedia", maxCount: 10 },

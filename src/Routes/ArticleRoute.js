@@ -7,6 +7,7 @@ import {
   getArticlesController,
   getArticlesControllerToNewsWeb,
   getArticlesSubTypeController,
+  getFutureArticles,
   getSingleArticlesController,
   getTopNewsByCategory,
   updateArticle,
@@ -34,5 +35,7 @@ router.patch(
   handleMulterUpload(upload.single("image")),
   updateArticle
 );
+router.get("/future-articles", getFutureArticles);
+
 
 export default router;

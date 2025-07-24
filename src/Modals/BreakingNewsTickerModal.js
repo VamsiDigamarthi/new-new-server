@@ -5,6 +5,17 @@ const { Schema } = mongoose;
 const breakingNewsTickerSchema = new Schema(
   {
     headline: { type: String, required: true, trim: true },
+
+    subHeadline: { type: String },
+
+    image: { type: String },
+
+    link: { type: String },
+
+    description: { type: String },
+
+    setActiveImmediately: { type: Boolean, default: false },
+
     category: {
       type: String,
       enum: [
@@ -19,15 +30,33 @@ const breakingNewsTickerSchema = new Schema(
       // required: true,
       // trim: true,
     },
+
+    ticker: {
+      type: Number,
+      default: 0,
+    },
     priority: {
       type: String,
       enum: ["low", "medium", "high"],
       default: "medium",
     },
-    startDateAndTime: { type: String, required: true },
-    endDateAndTime: { type: String, required: true },
-    link: { type: String },
-    setActiveImmediately: { type: Boolean, default: false },
+    // startDateAndTime: { type: String, required: true },
+    // endDateAndTime: { type: String, required: true },
+
+    startTime: {
+      type: String,
+      // required: true,
+    },
+
+    endTime: {
+      type: String,
+      // required: true,
+    },
+
+    date: {
+      type: String,
+      required: true,
+    },
 
     displayOptions: {
       showCategory: { type: Boolean, default: true },

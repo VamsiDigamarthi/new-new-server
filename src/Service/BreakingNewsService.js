@@ -3,6 +3,7 @@ import { TickerSettingModel } from "../Modals/TickerSettingModal.js";
 
 export const createBreakingNewsService = async (data) => {
   const news = new BreakingNewsTickerModel(data);
+  console.log(news);
   return await news.save();
 };
 
@@ -15,12 +16,12 @@ export const fetchBreakingNews = async (query) => {
     status,
     startDate,
     endDate,
-    currentDate,
+    currentDate, // e.g. "2025-07-24T00:54"
+    startTime,
+    endTime,
   } = query;
 
   const filter = {};
-
-  // console.log(currentDate, "--------================0-------------");
 
   // 🔍 Search by text
   if (search) {
@@ -37,46 +38,51 @@ export const fetchBreakingNews = async (query) => {
     filter.status = status;
   }
 
+  // 📆 Date range filtering
   if (startDate && endDate) {
-    console.log(startDate, endDate, "============");
-
-    // 📆 Filter by date range
-    filter.startDateAndTime = {
+    filter.date = {
       $gte: startDate,
-    };
-    filter.endDateAndTime = {
       $lte: endDate,
     };
   }
 
+  console.log(category, "-=-=-=-=-=cateforb");
+
+  // ⏰ Time-based filtering using currentDate
   if (currentDate) {
-    filter.startDateAndTime = {
-      $lte: currentDate,
-    };
-    filter.endDateAndTime = {
-      $gte: currentDate,
-    };
+    const now = new Date(currentDate); // Parse the full datetime
+    const today = now.toISOString().split("T")[0]; // Extract date part: "2025-07-24"
+    const currentTimeStr = now.toTimeString().slice(0, 5); // Extract time part: "00:54"
+
+    // Match documents where:
+    // - status is "Active", OR
+    // - status is "Scheduled" AND today's date matches AND currentTime is between startTime and endTime
+    filter.$or = [
+      { status: "Active" },
+      {
+        status: "Scheduled",
+        date: today, // This matches your DB format: "2025-07-23"
+        startTime: { $lte: currentTimeStr },
+        endTime: { $gte: currentTimeStr },
+      },
+    ];
   }
 
   const skip = (parseInt(page) - 1) * parseInt(limit);
 
-  const [data, total, tickerSetting] = await Promise.all([
+  const [data, total] = await Promise.all([
     BreakingNewsTickerModel.find(filter)
       .sort({ createdAt: -1 }) // latest first
       .skip(skip)
       .limit(parseInt(limit)),
     BreakingNewsTickerModel.countDocuments(filter),
-    TickerSettingModel.findOne({}),
   ]);
-
-  // console.log(data);
 
   return {
     data: data,
     currentPage: parseInt(page),
     totalPages: Math.ceil(total / parseInt(limit)),
     totalItems: total,
-    tickerSetting: tickerSetting,
   };
 };
 

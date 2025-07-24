@@ -47,6 +47,7 @@ export const getFilteredAds = async (req, res) => {
       limit = 10,
     } = req.query;
 
+    console.log(req.query, "---");
     const baseQuery = {};
 
     if (startDateAndTime) {
@@ -76,9 +77,9 @@ export const getFilteredAds = async (req, res) => {
 
     // 🔹 Include `status` only for paginated data
     const paginatedQuery = { ...baseQuery };
-    if (status) {
-      paginatedQuery.status = status;
-    }
+    // if (status) {
+    //   paginatedQuery.status = status;
+    // }
 
     const [ads, totalCount, activeCount, inActiveCount, scheduledCount] =
       await Promise.all([

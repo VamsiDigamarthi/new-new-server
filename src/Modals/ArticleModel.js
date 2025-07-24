@@ -105,6 +105,27 @@ const articleSchema = new Schema(
       // required: true,
     },
 
+    status: {
+      type: String,
+      enum: ["Active", "Scheduled"],
+      default: "Scheduled",
+    },
+
+    date: {
+      type: String,
+      default: null,
+    },
+
+    startTime: {
+      type: String,
+      default: null,
+    },
+
+    endTime: {
+      type: String,
+      default: null,
+    },
+
     page: {
       type: String,
     },
