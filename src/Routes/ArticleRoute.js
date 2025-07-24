@@ -10,6 +10,7 @@ import {
   getFutureArticles,
   getSingleArticlesController,
   getTopNewsByCategory,
+  updateArticle,
 } from "../Controller/ArticleController.js";
 import { handleMulterUpload } from "../Middlewares/handleMulterUpload.js";
 import upload from "../Middlewares/fileUpload.js";
@@ -29,6 +30,12 @@ router.get("/new-web", getArticlesControllerToNewsWeb);
 router.get("/sub-type", getArticlesSubTypeController);
 router.get("/all-type", getTopNewsByCategory);
 router.delete("/:id", deletArticle);
+router.patch(
+  "/update-article/:id",
+  handleMulterUpload(upload.single("image")),
+  updateArticle
+);
 router.get("/future-articles", getFutureArticles);
+
 
 export default router;

@@ -1,4 +1,5 @@
 import ArticleModel from "../Modals/ArticleModel.js";
+import moment from "moment-timezone";
 import {
   createArticleService,
   getArticlesService,
@@ -78,26 +79,48 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
     const {
       category,
       subCategory,
-      publishedDate,
       page,
       pageNumber,
       pageSize,
       subType,
+
       managerNews = false,
     } = req.query;
 
     const query = { managerNews };
 
+    // Handle managerNews filter
+    if (managerNews === "true") {
+      query.managerNews = true;
+    } else if (managerNews === "false") {
+      query.managerNews = false;
+    }
+
+    // Handle other filters
     if (category && category !== "null" && category !== "") {
       query.category = category;
     }
     if (subCategory) query.subCategory = subCategory;
-    if (publishedDate) query.publishedDate = publishedDate;
-    if (page) query.page = page;
     if (subType) query.subType = subType;
 
+    // Get current IST time
+    const currentUTC = new Date();
+    const ISTOffset = 5.5 * 60 * 60 * 1000; // IST is UTC+5:30
+    const currentIST = new Date(currentUTC.getTime() + ISTOffset);
+    const currentDate = currentIST.toISOString().split("T")[0]; // e.g., 2025-07-24
+    const currentTime = currentIST.toISOString().split("T")[1].slice(0, 8); // e.g., 09:40:00
+
+    // Filter for past data only
+    query.publishedDate = { $lte: currentDate };
+    query.$or = [
+      { publishedDate: { $lt: currentDate } }, // Past dates
+      { publishedDate: currentDate, publishedTime: { $lte: currentTime } }, // Today, past or current time
+    ];
+
+    // Build query with sorting
     let articlesQuery = ArticleModel.find(query).sort({ createdAt: -1 });
 
+    // Handle pagination
     if (pageNumber && pageSize) {
       const limit = parseInt(pageSize);
       const skip = (parseInt(pageNumber) - 1) * limit;
@@ -105,7 +128,6 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
     }
 
     const articles = await articlesQuery;
-    // console.log("articles", articles?.length);
 
     return res.status(200).json(articles);
   } catch (error) {
@@ -176,6 +198,50 @@ export const deletArticle = async (req, res) => {
   }
 };
 
+export const updateArticle = async (req, res) => {
+  const { id } = req.params;
+  console.log("--", req.body);
+  try {
+    const updates = {};
+
+    // If you're using multer for file upload, handle image separately
+    if (req.file) {
+      updates.image = req.file.path; // or req.file.filename if you store only filename
+    }
+
+    // Handle form fields
+    const fields = [
+      "headline",
+      "subCategory",
+      "content",
+      "image",
+      "publishedDate",
+      "publishedTime",
+    ];
+
+    for (const field of fields) {
+      if (req.body[field] !== undefined) {
+        updates[field] = req.body[field];
+      }
+    }
+
+    const updatedArticle = await ArticleModel.findByIdAndUpdate(id, updates, {
+      new: true,
+    });
+
+    if (!updatedArticle) {
+      return res.status(404).json({ message: "Article not found" });
+    }
+
+    res.status(200).json({
+      message: "Article updated successfully",
+      data: updatedArticle,
+    });
+  } catch (error) {
+    console.error("Update error:", error);
+    res.status(500).json({ message: "Server error", error });
+  }
+};
 export const getFutureArticles = async (req, res) => {
   try {
     const {
