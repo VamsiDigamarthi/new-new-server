@@ -2,6 +2,7 @@ import express from "express";
 import { validate } from "../Utils/validaters.js";
 import { articleSchema } from "../Validations/articleValidation.js";
 import {
+  approvedArt,
   createArticleController,
   deletArticle,
   getArticlesController,
@@ -39,5 +40,6 @@ router.patch(
 router.get("/future-articles", getFutureArticles);
 
 router.patch("/views/:id", incrementViewCount);
+router.patch("/approved/:id", approvedArt);
 
 export default router;

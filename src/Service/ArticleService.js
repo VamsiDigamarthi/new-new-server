@@ -15,8 +15,9 @@ export const getArticlesService = async (queryParams) => {
     startDate,
     endDate,
     subCategory,
+    approvedState,
   } = queryParams;
-  console.log("-----", queryParams);
+  // console.log("-----", approvedState);
   const query = {};
 
   // 🔍 Search
@@ -29,8 +30,17 @@ export const getArticlesService = async (queryParams) => {
 
   if (category) query.category = category;
   if (subCategory) query.subCategory = subCategory;
+  // if (approvedState) query.approvedState = Boolean(approvedState);
   // status === "Active"  status ==="Scheduled"
   // console.log("status", status);
+
+  if (approvedState === "Approved" || approvedState === "Pendings") {
+    if (approvedState === "Approved") {
+      query.isApproved = true;
+    } else {
+      query.isApproved = false;
+    }
+  }
 
   if (status === "Active" || status === "Scheduled") {
     const today = new Date().toISOString().split("T")[0]; // "YYYY-MM-DD"
@@ -58,6 +68,7 @@ export const getArticlesService = async (queryParams) => {
   }
 
   const skip = (page - 1) * limit;
+  // console.log("query", query);
 
   const [articles, total] = await Promise.all([
     ArticleModel.find(query)
