@@ -336,3 +336,21 @@ export const incrementViewCount = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
+
+export const approvedArt = async (req, res) => {
+  const { id } = req.params;
+  try {
+    await ArticleModel.findByIdAndUpdate(
+      id,
+      {
+        $set: {
+          isApproved: true,
+        },
+      },
+      { new: true }
+    );
+    return res.status(200).json({ message: "Approved...!" });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
