@@ -61,7 +61,7 @@ export const getArticlesService = async (queryParams) => {
 
   const [articles, total] = await Promise.all([
     ArticleModel.find(query)
-      .populate("author", "name email role -_id ")
+      .populate("author", "name email role -_id location")
       .sort({ createdAt: -1 })
       .skip(skip)
       .limit(Number(limit)),

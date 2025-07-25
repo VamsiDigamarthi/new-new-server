@@ -52,7 +52,7 @@ export const getSingleArticlesController = async (req, res) => {
   try {
     const art = await ArticleModel.findOne({ _id: id }).populate(
       "author",
-      "name email role -_id "
+      "name email role -_id location"
     );
     return res.status(200).json(art);
   } catch (error) {
@@ -113,9 +113,6 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
     const currentDate = currentIST.toISOString().split("T")[0]; // e.g., 2025-07-24
     const currentTime = currentIST.toISOString().split("T")[1].slice(0, 8); // e.g., 09:40:00
 
-    console.log("currentDate", currentDate);
-    console.log("currentTime", currentTime);
-
     // Filter for past data only
     // query.publishedDate = { $lte: currentDate };
     query.$or = [
@@ -124,7 +121,9 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
     ];
 
     // Build query with sorting
-    let articlesQuery = ArticleModel.find(query).sort({ createdAt: -1 });
+    let articlesQuery = ArticleModel.find(query)
+      .populate("author", "name email role -_id location")
+      .sort({ createdAt: -1 });
 
     // Handle pagination
     if (pageNumber && pageSize) {
