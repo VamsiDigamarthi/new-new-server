@@ -86,9 +86,7 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
       managerNews = false,
     } = req.query;
 
-    console.log(req.query, "-------");
-
-    const query = { managerNews };
+    const query = { managerNews, isApproved: true };
 
     // Handle managerNews filter
     if (managerNews === "true") {
