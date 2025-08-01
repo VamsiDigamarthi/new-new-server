@@ -63,7 +63,16 @@ export const loginController = async (req, res) => {
 export const getUsersController = async (req, res) => {
   const { page, limit, search, status } = req.query;
   const query = {
-    role: { $in: ["Admin", "Editor", "Chief Editor", "Reader"] },
+    role: {
+      $in: [
+        "Admin",
+        "Editor",
+        "Chief Editor",
+        "Reader",
+        "Reporter",
+        "Chief Reporter",
+      ],
+    },
   };
   if (search) {
     query.$or = [

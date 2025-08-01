@@ -16,6 +16,7 @@ export const getArticlesService = async (queryParams) => {
     endDate,
     subCategory,
     approvedState,
+    subCat,
   } = queryParams;
   // console.log("-----", approvedState);
   const query = {};
@@ -30,6 +31,7 @@ export const getArticlesService = async (queryParams) => {
 
   if (category) query.category = category;
   if (subCategory) query.subCategory = subCategory;
+  if (subCat) query.subCat = subCat;
   // if (approvedState) query.approvedState = Boolean(approvedState);
   // status === "Active"  status ==="Scheduled"
   // console.log("status", status);

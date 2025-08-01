@@ -84,6 +84,7 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
       pageSize,
       subType,
       managerNews = false,
+      subCat,
     } = req.query;
 
     const query = { managerNews, isApproved: true };
@@ -100,6 +101,7 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
       query.category = category;
     }
     if (subCategory) query.subCategory = subCategory;
+    if (subCat) query.subCat = subCat;
     if (page) query.page = page;
 
     if (subType) query.subType = subType;
