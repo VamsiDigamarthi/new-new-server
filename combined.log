@@ -470,3 +470,348 @@
 {"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-25T12:50:33.800Z"}
 {"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-25T12:57:50.412Z"}
 {"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-25T12:57:50.516Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-25T12:59:02.734Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-25T12:59:02.815Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-25T14:58:21.702Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-25T14:58:21.831Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-25T15:04:35.772Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-30T09:15:01.687Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-30T09:15:01.768Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T09:17:31.198Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T09:17:31.369Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-30T09:33:58.029Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-30T09:33:58.118Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:08:43.024Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:08:43.092Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:09:30.388Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:09:30.417Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-30T10:09:48.022Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:09:48.065Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:09:54.222Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:10:06.018Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:10:57.001Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:10:57.023Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:11:03.556Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:11:06.733Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:11:07.705Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:11:13.739Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:11:19.160Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:11:21.611Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:11:22.411Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:11:53.252Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:12:08.560Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:12:14.882Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:12:18.244Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:14:40.504Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:14:42.048Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:14:43.437Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:14:45.688Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-30T10:14:46.945Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:05:26.847Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:05:26.997Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T05:05:54.680Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T05:05:54.784Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T05:06:00.486Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T05:06:00.509Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T05:06:55.665Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:11:48.471Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:11:48.549Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:11:53.569Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:11:53.653Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:11:59.272Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:11:59.345Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:14:09.789Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:14:09.861Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:15:09.620Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:15:09.718Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:15:14.457Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:15:14.550Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:15:20.043Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:15:20.134Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:15:26.806Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:15:26.868Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:15:30.094Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:15:30.180Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:15:44.668Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:15:44.748Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:15:48.957Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:15:49.076Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:15:54.528Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:15:54.616Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:15:59.836Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:15:59.903Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:16:05.448Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:16:05.519Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:16:09.941Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:16:10.018Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:16:16.513Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:16:16.599Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:16:20.095Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:16:20.180Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:16:27.454Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:16:27.516Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:16:35.915Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:16:35.981Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:16:40.268Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:16:40.331Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:16:46.286Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:16:46.374Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:16:54.452Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:16:54.523Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:17:00.692Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:17:00.752Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:17:07.513Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:17:07.581Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:17:12.876Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:17:12.947Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:17:36.132Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:17:36.195Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:17:54.669Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:17:54.740Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:17:59.797Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:17:59.870Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:18:05.215Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:18:05.289Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:18:10.125Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:18:10.195Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:18:25.804Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:18:25.867Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:18:49.610Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:18:49.674Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:18:55.066Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:18:55.133Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:19:00.059Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:19:00.141Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:19:05.206Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:19:05.279Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:19:11.480Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:19:11.559Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:19:17.600Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:19:17.668Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:48:47.554Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:48:47.627Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:51:07.002Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:51:07.078Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:51:17.808Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:51:17.909Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:51:19.830Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:51:19.925Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:51:43.151Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:51:43.232Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:52:50.397Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:52:50.623Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:53:21.944Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:53:21.997Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:53:31.813Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:53:31.889Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:53:39.298Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:53:39.355Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T05:55:16.575Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T05:55:22.958Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T05:55:22.987Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T05:55:24.905Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T05:55:28.071Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T05:55:28.115Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:56:33.568Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:56:33.634Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:56:46.601Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:56:46.654Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:57:06.725Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:57:06.793Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:57:34.539Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:57:34.610Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T05:57:39.286Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T05:57:39.346Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T05:58:38.109Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T05:58:38.152Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T05:58:40.299Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T06:02:54.834Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T06:02:54.891Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-31T06:14:43.280Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T06:17:51.856Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T06:17:51.938Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:18:09.060Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:18:09.109Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:20:53.335Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:20:53.354Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-31T06:21:14.966Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:21:15.028Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T06:21:49.366Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T06:21:49.459Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:22:33.227Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:22:33.261Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:22:54.674Z"}
+{"level":"info","message":"New Site Service is running on port 9999","service":"auth-services","timestamp":"2025-07-31T06:23:36.557Z"}
+{"level":"info","message":"Connected to mongodb","service":"auth-services","timestamp":"2025-07-31T06:23:36.651Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:23:43.392Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:23:43.431Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-31T06:24:01.280Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:24:01.315Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:27:02.207Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:27:50.191Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:28:03.204Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:28:03.238Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:28:05.770Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:28:05.800Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:28:08.799Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-31T06:28:36.137Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:28:36.160Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:32:34.776Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:32:34.802Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-31T06:32:49.425Z"}
+{"level":"error","message":"❌Article Upload Failed : ValidationError: subCat: `` is not a valid enum value for path `subCat`.","service":"auth-services","stack":"ValidationError: Article validation failed: subCat: `` is not a valid enum value for path `subCat`.\n    at Document.invalidate (C:\\Users\\tejme\\Downloads\\church-new\\new-server\\node_modules\\mongoose\\lib\\document.js:3343:32)\n    at C:\\Users\\tejme\\Downloads\\church-new\\new-server\\node_modules\\mongoose\\lib\\document.js:3104:17\n    at C:\\Users\\tejme\\Downloads\\church-new\\new-server\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-31T06:32:49.432Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:32:49.456Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:33:15.441Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:33:15.465Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-31T06:33:33.938Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:33:33.963Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:35:38.587Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:35:38.620Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:37:19.192Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:37:19.212Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:37:40.226Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:37:48.186Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:37:48.198Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-31T06:39:08.548Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-31T06:39:39.315Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-31T06:39:39.400Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:41:09.610Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:41:09.679Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:41:11.571Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:41:15.016Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:41:15.033Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-31T06:42:03.928Z"}
+{"level":"info","message":"ARTICLE SUB TYPE API","service":"auth-services","timestamp":"2025-07-31T06:42:04.050Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:42:28.834Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:42:28.851Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:42:30.054Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:42:30.793Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:43:45.207Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:43:45.229Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:43:46.831Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:43:46.845Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:43:50.449Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:43:55.957Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:43:57.524Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:44:00.752Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:44:00.767Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:44:03.860Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:44:05.559Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:44:07.562Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:44:08.351Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:44:20.219Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:44:20.253Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:45:31.381Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:45:31.393Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:45:33.254Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:45:34.340Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:45:35.739Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:45:36.377Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:46:33.128Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:46:37.692Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:46:40.922Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:46:44.195Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:46:59.422Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:46:59.439Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:47:15.004Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:47:15.019Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:47:16.580Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:47:18.817Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-31T06:48:22.818Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:48:22.866Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:49:41.928Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:49:41.950Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-31T06:49:59.224Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:49:59.252Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:50:05.135Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:52:07.455Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:52:19.558Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:52:19.580Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-31T06:52:42.987Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:52:43.022Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:52:51.496Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:52:52.606Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:52:53.970Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:53:13.313Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:54:07.103Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:54:07.134Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-31T06:54:28.004Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:54:28.029Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:55:04.127Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:55:04.166Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-31T06:55:24.940Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:55:24.966Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:58:29.209Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:58:29.234Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:59:17.196Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:59:17.246Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:59:19.172Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:59:45.828Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:59:48.477Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T06:59:50.804Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T07:00:05.916Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T07:00:34.524Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T07:00:44.636Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T07:01:18.942Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T07:01:18.968Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T07:01:19.013Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T07:01:22.708Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T07:01:25.899Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T07:01:27.990Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T07:01:30.580Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T07:01:41.366Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T07:01:47.938Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T07:01:54.469Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T07:01:58.668Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:33:51.328Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:33:51.349Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:33:52.045Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:33:53.160Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:33:54.706Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:33:54.744Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:38:31.141Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:38:31.222Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:38:31.277Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:38:33.196Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:38:33.206Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:38:34.401Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:38:34.418Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:38:35.389Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:38:35.397Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:38:40.305Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:38:40.312Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:38:41.739Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:38:41.749Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:39:13.825Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:39:13.851Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:39:13.863Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:39:17.064Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:39:17.071Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:39:53.057Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:39:53.097Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:39:53.107Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:40:02.742Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:40:02.750Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-31T08:40:28.728Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:40:28.768Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:40:28.788Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:41:13.955Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:41:13.969Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:41:17.591Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:41:17.597Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:42:00.468Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:42:00.509Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:42:00.524Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:42:21.292Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-31T08:42:46.750Z"}
+{"level":"error","message":"❌Article Upload Failed : ValidationError: subCat: `Other Sports` is not a valid enum value for path `subCat`.","service":"auth-services","stack":"ValidationError: Article validation failed: subCat: `Other Sports` is not a valid enum value for path `subCat`.\n    at Document.invalidate (C:\\Users\\tejme\\Downloads\\church-new\\new-server\\node_modules\\mongoose\\lib\\document.js:3343:32)\n    at C:\\Users\\tejme\\Downloads\\church-new\\new-server\\node_modules\\mongoose\\lib\\document.js:3104:17\n    at C:\\Users\\tejme\\Downloads\\church-new\\new-server\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-31T08:42:46.757Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:42:46.784Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:42:46.788Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:43:41.469Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:43:41.483Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:43:41.514Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:46:19.887Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:46:19.896Z"}
+{"level":"info","message":"ARTICLE APIhit ","service":"auth-services","timestamp":"2025-07-31T08:46:49.643Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:46:49.674Z"}
+{"level":"info","message":"📄 Get Articles API hit","service":"auth-services","timestamp":"2025-07-31T08:46:49.683Z"}
