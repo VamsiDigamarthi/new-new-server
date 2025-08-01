@@ -55,6 +55,37 @@ const articleSchema = new Schema(
         "gallery",
       ],
     },
+    subCat: {
+      type: String,
+      enum: [
+        // sprt
+        "All",
+        "Cricket",
+        "Other Sprots",
+        // health
+        "Fitness",
+        "Nutrition",
+        "Mental Health",
+        "Diseases",
+        "Women's Health",
+        "Other Health",
+        // business
+        "Business Tech",
+        "Stock Market",
+        "business corporate",
+        "business automobiles",
+        "Economy",
+        "Entrepreneurship",
+        "Busines Finance",
+        "Business Economy",
+        // politics
+        "National Politics",
+        "State Politics",
+        "Political Parties",
+        "Government Policies",
+        "Parliament Sessions",
+      ],
+    },
     subCategory: {
       type: String,
       enum: [
@@ -139,6 +170,10 @@ const articleSchema = new Schema(
     views: {
       type: Number,
       default: 0,
+    },
+    isApproved: {
+      type: Boolean,
+      default: false,
     },
   },
   {

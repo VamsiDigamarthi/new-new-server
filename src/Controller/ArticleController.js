@@ -84,11 +84,10 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
       pageSize,
       subType,
       managerNews = false,
+      subCat,
     } = req.query;
 
-    console.log(req.query, "-------");
-
-    const query = { managerNews };
+    const query = { managerNews, isApproved: true };
 
     // Handle managerNews filter
     if (managerNews === "true") {
@@ -102,6 +101,7 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
       query.category = category;
     }
     if (subCategory) query.subCategory = subCategory;
+    if (subCat) query.subCat = subCat;
     if (page) query.page = page;
 
     if (subType) query.subType = subType;
@@ -332,6 +332,24 @@ export const incrementViewCount = async (req, res) => {
     );
     if (!article) return res.status(404).json({ message: "Article not found" });
     res.status(200).json(article);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
+export const approvedArt = async (req, res) => {
+  const { id } = req.params;
+  try {
+    await ArticleModel.findByIdAndUpdate(
+      id,
+      {
+        $set: {
+          isApproved: true,
+        },
+      },
+      { new: true }
+    );
+    return res.status(200).json({ message: "Approved...!" });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
