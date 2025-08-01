@@ -61,7 +61,7 @@ const articleSchema = new Schema(
         // sprt
         "All",
         "Cricket",
-        "Other Sprots",
+        "Other Sports",
         // health
         "Fitness",
         "Nutrition",
@@ -105,7 +105,7 @@ const articleSchema = new Schema(
     },
     subType: {
       type: String,
-      trim: true,
+      // trim: true,
       default: null,
     },
     publishedDate: {

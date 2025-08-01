@@ -15,7 +15,8 @@ export const createArticleController = async (req, res) => {
       ...req.body,
       image: req.file?.path || null,
     };
-    console.log("articleData", articleData);
+
+    // console.log("articleData", req);
 
     await createArticleService(articleData);
 
@@ -85,6 +86,7 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
       subType,
       managerNews = false,
       subCat,
+      search,
     } = req.query;
 
     const query = { managerNews, isApproved: true };
@@ -106,6 +108,24 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
 
     if (subType) query.subType = subType;
 
+    const escapeRegex = (string) => {
+      return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    };
+
+    // Handle search query
+    if (
+      search &&
+      typeof search === "string" &&
+      search.trim() &&
+      search.length <= 100
+    ) {
+      const searchRegex = new RegExp(escapeRegex(search.trim()), "i");
+      query.$or = [
+        { headline: searchRegex },
+        { subHeadline: searchRegex },
+        { content: searchRegex },
+      ];
+    }
     // Get current IST time
     const currentUTC = new Date();
     const ISTOffset = 5.5 * 60 * 60 * 1000; // IST is UTC+5:30
@@ -133,7 +153,6 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
     }
 
     const articles = await articlesQuery;
-    console.log("articles", articles);
 
     return res.status(200).json(articles);
   } catch (error) {
