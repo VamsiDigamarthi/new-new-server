@@ -22,7 +22,7 @@ export const getWebsiteSettings = async () => {
 };
 
 export const updateWebsiteSettings = async (updates, files) => {
-  // console.log(updates, files);
+  // console.log(updates);
 
   let settings = await WebsiteSettingModel.findOne();
 
@@ -43,13 +43,15 @@ export const updateWebsiteSettings = async (updates, files) => {
 
   settings.socialLinks = {
     ...settings.socialLinks,
-    ...updates.socialLinks,
+    ...updates,
   };
 
   settings.emailSettings = {
     ...settings.emailSettings,
     ...updates.emailSettings,
   };
+
+  // console.log("settings", settings);
 
   return await settings.save();
 };
