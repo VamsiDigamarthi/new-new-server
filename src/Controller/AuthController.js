@@ -151,8 +151,8 @@ export const getProfile = async (req, res) => {
     if (!user) return res.status(404).json({ message: "user not found" });
     return res.status(200).json(user);
   } catch (error) {
-    console.log("error", err);
-    res.status(500).json({ message: "Server error", error: err.message });
+    console.log("error", error);
+    res.status(500).json({ message: "Server error", error: error.message });
   }
 };
 
