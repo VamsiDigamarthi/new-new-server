@@ -88,64 +88,72 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
       subCat,
       search,
     } = req.query;
+    console.log("req.query", req.query);
 
-    const query = { managerNews, isApproved: true };
+    // Get current IST time
+    const currentUTC = new Date();
+    const ISTOffset = 5.5 * 60 * 60 * 1000;
+    const currentIST = new Date(currentUTC.getTime() + ISTOffset);
+    const currentDate = currentIST.toISOString().split("T")[0];
+    const currentTime = currentIST.toISOString().split("T")[1].slice(0, 8);
 
-    // Handle managerNews filter
-    if (managerNews === "true") {
-      query.managerNews = true;
-    } else if (managerNews === "false") {
-      query.managerNews = false;
+    // Build AND conditions
+    const queryConditions = [
+      { isApproved: true },
+      { publishedDate: { $lte: currentDate } },
+      {
+        $or: [
+          { publishedDate: { $lt: currentDate } },
+          {
+            publishedDate: currentDate,
+            publishedTime: { $lte: currentTime },
+          },
+        ],
+      },
+    ];
+
+    if (managerNews === "true" || managerNews === true) {
+      queryConditions.push({ managerNews: true });
+    } else {
+      queryConditions.push({ managerNews: false });
     }
 
-    // Handle other filters
-    if (category && category !== "null" && category !== "") {
-      query.category = category;
-    }
-    if (subCategory) query.subCategory = subCategory;
-    if (subCat) query.subCat = subCat;
-    if (page) query.page = page;
+    if (category && category !== "null") queryConditions.push({ category });
+    if (subCategory) queryConditions.push({ subCategory });
+    if (subCat) queryConditions.push({ subCat });
+    if (page) queryConditions.push({ page });
+    if (subType) queryConditions.push({ subType });
 
-    if (subType) query.subType = subType;
-
-    const escapeRegex = (string) => {
-      return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    };
-
-    // Handle search query
+    // Search
     if (
       search &&
       typeof search === "string" &&
       search.trim() &&
       search.length <= 100
     ) {
-      const searchRegex = new RegExp(escapeRegex(search.trim()), "i");
-      query.$or = [
-        { headline: searchRegex },
-        { subHeadline: searchRegex },
-        { content: searchRegex },
-      ];
+      const searchRegex = new RegExp(
+        search.trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&"),
+        "i"
+      );
+      queryConditions.push({
+        $or: [
+          { headline: searchRegex },
+          { subHeadline: searchRegex },
+          { content: searchRegex },
+        ],
+      });
     }
-    // Get current IST time
-    const currentUTC = new Date();
-    const ISTOffset = 5.5 * 60 * 60 * 1000; // IST is UTC+5:30
-    const currentIST = new Date(currentUTC.getTime() + ISTOffset);
-    const currentDate = currentIST.toISOString().split("T")[0]; // e.g., 2025-07-24
-    const currentTime = currentIST.toISOString().split("T")[1].slice(0, 8); // e.g., 09:40:00
 
-    // Filter for past data only
-    // query.publishedDate = { $lte: currentDate };
-    query.$or = [
-      { publishedDate: { $lt: currentDate } }, // Past dates
-      { publishedDate: currentDate, publishedTime: { $lte: currentTime } }, // Today, past or current time
-    ];
+    // Final Query
+    const finalQuery = { $and: queryConditions };
 
-    // Build query with sorting
-    let articlesQuery = ArticleModel.find(query)
+    console.log("🚀 Final Query:", JSON.stringify(finalQuery, null, 2));
+
+    // Execute
+    let articlesQuery = ArticleModel.find(finalQuery)
       .populate("author", "name email role -_id location")
       .sort({ createdAt: -1 });
 
-    // Handle pagination
     if (pageNumber && pageSize) {
       const limit = parseInt(pageSize);
       const skip = (parseInt(pageNumber) - 1) * limit;
@@ -153,18 +161,12 @@ export const getArticlesControllerToNewsWeb = async (req, res) => {
     }
 
     const articles = await articlesQuery;
+    console.log("✅ Articles Fetched:", articles.length);
 
     return res.status(200).json(articles);
   } catch (error) {
-    logger.error("❌ Failed to fetch web-site articles", {
-      error: error.message,
-    });
-    return sendResponse(
-      res,
-      500,
-      "Failed to fetch web-site articles",
-      error.message
-    );
+    console.error("❌ Error fetching articles:", error.message);
+    return res.status(500).json({ error: error.message });
   }
 };
 
