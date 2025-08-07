@@ -72,12 +72,12 @@ const articleSchema = new Schema(
         // business
         "Business Tech",
         "Stock Market",
-        "business corporate",
-        "business automobiles",
+        "Corporate",
+        "Automobiles",
         "Economy",
         "Entrepreneurship",
-        "Busines Finance",
-        "Business Economy",
+        "Finance",
+
         // politics
         "National Politics",
         "State Politics",
