@@ -1,4 +1,5 @@
 import ArticleModel from "../Modals/ArticleModel.js";
+import SubscribeModal from "../Modals/SubscribeEmailModal.js";
 
 export const getLast7DaysArticleCount = async (req, res) => {
   try {
@@ -69,5 +70,31 @@ export const getLast7DaysArticleCount = async (req, res) => {
       success: false,
       message: "Error fetching analytics",
     });
+  }
+};
+
+export const subScribeToemail = async (req, res) => {
+  try {
+    const { email } = req.body;
+    if (!email) return res.status(400).send({ message: "Email is required" });
+
+    const already = await SubscribeModal.findOne({ email });
+
+    if (already) return res.status(400).send({ message: "Already Subscribed" });
+
+    const newOne = await SubscribeModal.create({ email });
+
+    return res.status(200).send({ message: "Subscribed Successfully" });
+  } catch (error) {
+    return res.status(500).send({ message: "Internal Server Error" });
+  }
+};
+
+export const getAllsubs = async (req, res) => {
+  try {
+    const already = await SubscribeModal.find({});
+    return res.status(200).send(already);
+  } catch (error) {
+    return res.status(500).send({ message: "Internal Server Error" });
   }
 };

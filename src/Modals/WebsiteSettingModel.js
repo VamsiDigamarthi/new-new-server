@@ -16,6 +16,12 @@ const websiteSettingSchema = new Schema(
     favIcon: {
       type: String, // path or URL to favicon
     },
+    mobile: {
+      type: String, // path or URL to favicon
+    },
+    email: {
+      type: String, // path or URL to favicon
+    },
     socialLinks: {
       facebook: { type: String, default: "" },
       twitter: { type: String, default: "" },

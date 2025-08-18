@@ -16,6 +16,8 @@ export const getWebsiteSettings = async () => {
         senderName: "Default Sender",
         encryptionType: "tls",
       },
+      email: null,
+      mobile: null,
     });
   }
   return settings;
@@ -50,6 +52,9 @@ export const updateWebsiteSettings = async (updates, files) => {
     ...settings.emailSettings,
     ...updates.emailSettings,
   };
+
+  settings.email = updates.email;
+  settings.mobile = updates.mobile;
 
   // console.log("settings", settings);
 

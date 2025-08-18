@@ -22,6 +22,10 @@ export const addNewMedia = async (req, res) => {
       data.date = new Date().toISOString().split("T")[0];
     }
 
+    if (data.role === "Manager") {
+      data.isApproved = true;
+    }
+
     const newMedia = await ArticleModel.create({
       ...req.body,
       ...data,

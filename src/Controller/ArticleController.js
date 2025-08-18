@@ -16,6 +16,8 @@ export const createArticleController = async (req, res) => {
       image: req.file?.path || null,
     };
 
+    if (req.body.role === "Manager") articleData.isApproved = true;
+
     // console.log("articleData", req);
 
     await createArticleService(articleData);

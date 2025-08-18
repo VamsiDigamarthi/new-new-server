@@ -65,7 +65,7 @@ app.use("/analitics", AnaliticsRoute);
 startHTTPServer();
 
 app.get("/", async (req, res) => {
-  return res.status(200).json({ message: "hi" });
+  return res.status(200).json({ message: "Welcome to News Server" });
 });
 
 // logger.warn(`⚠️ Order ${orderId} already accepted or cancelled`);

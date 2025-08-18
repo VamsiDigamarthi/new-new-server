@@ -53,6 +53,7 @@ const articleSchema = new Schema(
         "education",
         "home",
         "gallery",
+        "chairmandesk",
       ],
     },
     subCat: {
@@ -84,6 +85,8 @@ const articleSchema = new Schema(
         "Political Parties",
         "Government Policies",
         "Parliament Sessions",
+
+        "chairmandesk",
       ],
     },
     subCategory: {
@@ -101,6 +104,8 @@ const articleSchema = new Schema(
         "Cinema Subtype",
         "tech sub",
         "politics sub",
+
+        "chairmandesk",
       ],
     },
     subType: {
